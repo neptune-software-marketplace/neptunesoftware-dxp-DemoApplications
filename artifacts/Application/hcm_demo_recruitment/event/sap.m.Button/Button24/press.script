@@ -1,0 +1,3 @@
+PanelInterviewDetail.setVisible(true);
+PanelAttachments.setVisible(false);
+PanelInterviewStatistics.setVisible(false);

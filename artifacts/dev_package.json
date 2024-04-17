@@ -11,8 +11,71 @@
 	"enableCICD": true,
 	"apps": [
 		{
+			"id": "942c2a12-311b-ee11-907c-000d3ab76cc2",
+			"application": "neptune_hcm_ad_your_skills",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "90d334ce-cfce-ed11-a8de-000d3a65e714",
+			"application": "com_neptune_software_hcm_reminders",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "6fd142f0-7dce-ed11-a8de-000d3a65e714",
+			"application": "com_neptune_software_hcm_happiness",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
 			"id": "67ab2f88-588e-eb11-85aa-000d3ab08500",
 			"application": "highcharts_example",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "3c74e554-31f3-ed11-907c-000d3a654fb6",
+			"application": "hc_demo_reminders",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "39373e72-aef3-ed11-907c-000d3a654fb6",
+			"application": "hcm_demo_recruitment",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "2767934b-e5f7-ed11-907c-000d3a654fb6",
+			"application": "hcm_demo_recruitment_v2",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "14110024-271b-ee11-907c-000d3ab76cc2",
+			"application": "hcm_find_skilled_person",
 			"title": "",
 			"description": "",
 			"package": {

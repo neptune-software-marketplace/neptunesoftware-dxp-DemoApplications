@@ -1,0 +1,16 @@
+const context = oEvent.oSource.getBindingContext();  
+
+const name = context.getProperty("updatedBy");
+
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({"updatedBy" : name})
+    }
+};
+
+apiRestAPIGetPersonDetails(options);
+
+
+Title1.setText(name);
+Dialog.open();

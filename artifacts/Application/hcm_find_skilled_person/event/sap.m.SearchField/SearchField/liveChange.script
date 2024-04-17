@@ -1,0 +1,24 @@
+if(this.getValue().length == 0){
+apiRestAPIGetPersons();
+return;
+}
+// var options = {
+//     parameters: {
+//         "where": JSON.stringify({"skill_name": this.getValue()}),
+//     }
+// };
+
+// apiRestAPIGetPersons(options);
+var value = this.getValue();
+var data = modelModelArray.getData();
+// console.log(data);
+// const foundElement = data.find((element) => String(element.skill_name).startsWith(value));
+// console.log(foundElement);console.log(data);
+const filteredArray = data.filter((element) =>
+  element.skill_name.toLowerCase().includes(value.toLowerCase())
+);
+
+console.log(filteredArray);
+
+modelGridList.setData(filteredArray);
+

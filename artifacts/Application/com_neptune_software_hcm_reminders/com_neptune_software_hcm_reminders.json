@@ -1,0 +1,339 @@
+{
+	"id": "90d334ce-cfce-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-30T07:53:19.200Z",
+	"createdBy": "morten.prom@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "f53875a1-24a0-4ca1-cd7b-f549cd4068a9",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"description": "",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "9c13a8d8-646f-4210-ad60-1aed1fa7548a",
+					"fieldName": "ListReminder",
+					"fieldParent": "f53875a1-24a0-4ca1-cd7b-f549cd4068a9",
+					"fieldType": "sap.m.List",
+					"description": "",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "01fd461f-6bb8-46ab-ebb7-2f7a387a7e88",
+							"fieldName": "itemListReminder",
+							"fieldParent": "9c13a8d8-646f-4210-ad60-1aed1fa7548a",
+							"fieldType": "sap.m.CustomListItem",
+							"description": "",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Inactive",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "highlight",
+									"grouping": "Properties",
+									"value": "{statusState}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "bc61f625-7573-4ff9-b6a4-e564e1346bfe",
+									"fieldName": "containerListReminder",
+									"fieldParent": "01fd461f-6bb8-46ab-ebb7-2f7a387a7e88",
+									"fieldType": "sap.m.HBox",
+									"description": "",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "nepHCMReminderList",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "renderType",
+											"grouping": "Properties",
+											"value": "Bare",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "SpaceBetween",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "68768a2e-ccf4-4142-b53c-7dcec0963021",
+											"fieldName": "boxListReminderInfo",
+											"fieldParent": "bc61f625-7573-4ff9-b6a4-e564e1346bfe",
+											"fieldType": "sap.m.VBox",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "nepHCMReminderListInfo",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "3c3b096b-5b07-4dbe-ab67-36ed793649d0",
+													"fieldName": "titleListReminder",
+													"fieldParent": "68768a2e-ccf4-4142-b53c-7dcec0963021",
+													"fieldType": "sap.m.Text",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{title}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMReminderListTitle",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "3aa512ec-03da-488b-f0ed-9ca5ba1b7087",
+													"fieldName": "actionListReminder",
+													"fieldParent": "68768a2e-ccf4-4142-b53c-7dcec0963021",
+													"fieldType": "sap.m.Text",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{action}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMReminderListAction",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "86023bf9-43a5-4056-bf0a-64f39225d9c3",
+											"fieldName": "boxListReminderAction",
+											"fieldParent": "bc61f625-7573-4ff9-b6a4-e564e1346bfe",
+											"fieldType": "sap.m.VBox",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginBegin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "nepHCMReminderListAction",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "justifyContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d1bf1eae-0243-417b-b208-c9589cc87901",
+													"fieldName": "Button",
+													"fieldParent": "86023bf9-43a5-4056-bf0a-64f39225d9c3",
+													"fieldType": "sap.m.Button",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Ghost",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{actionText}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "752d9b65-90d2-47d4-ea20-c5c44b0f1005",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.4.17.1535",
+	"application": "com_neptune_software_hcm_reminders",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5"
+}

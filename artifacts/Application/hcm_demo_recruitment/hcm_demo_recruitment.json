@@ -1,0 +1,5508 @@
+{
+	"id": "39373e72-aef3-ed11-907c-000d3a654fb6",
+	"createdAt": "2023-05-16T05:57:30.220Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "1d5a9126-9223-4b88-941d-26933c41e5d0",
+			"fieldName": "oApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.SplitApp",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "c78066c7-7032-47e7-c6ae-322e574655bc",
+					"fieldName": "oPageMaster1",
+					"fieldParent": "1d5a9126-9223-4b88-941d-26933c41e5d0",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addMasterPage",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "653808c5-795b-453a-bfbf-5cbdfba50200",
+							"fieldName": "ListFilterByCompany",
+							"fieldParent": "c78066c7-7032-47e7-c6ae-322e574655bc",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "72a3bf2a-dc7a-483e-c271-4f0f9a372831",
+									"fieldName": "CustomListItem1",
+									"fieldParent": "653808c5-795b-453a-bfbf-5cbdfba50200",
+									"fieldType": "sap.m.CustomListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "3df70eec-c8c8-4e67-8c37-38ba14f4bb8f",
+											"fieldName": "HBoxFilterHeader",
+											"fieldParent": "72a3bf2a-dc7a-483e-c271-4f0f9a372831",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMargin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ea77f979-ebfb-48a6-f566-77d2462df11b",
+													"fieldName": "Icon2",
+													"fieldParent": "3df70eec-c8c8-4e67-8c37-38ba14f4bb8f",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginEnd",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://fa-solid/building",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "35px",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "gray",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "013a22d4-090a-4f14-95de-14b6b9c051bd",
+													"fieldName": "TextFilterHeader2",
+													"fieldParent": "3df70eec-c8c8-4e67-8c37-38ba14f4bb8f",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Company",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "TextFilterHeader",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "55a7488b-85bd-41b5-dbac-98771838a17d",
+											"fieldName": "ButtonAll",
+											"fieldParent": "72a3bf2a-dc7a-483e-c271-4f0f9a372831",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "ALL",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/ButtonAll/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "1b8e9e59-2106-4a99-c127-8ef5036bdc69",
+											"fieldName": "Button11",
+											"fieldParent": "72a3bf2a-dc7a-483e-c271-4f0f9a372831",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Neptune Germany",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button11/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8e97bfed-0d94-417e-95cb-3f31ac922495",
+											"fieldName": "Button12",
+											"fieldParent": "72a3bf2a-dc7a-483e-c271-4f0f9a372831",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Neptune Norway",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button12/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "6ddc35f0-23b3-4307-82b0-c4f295492f7d",
+											"fieldName": "Button13",
+											"fieldParent": "72a3bf2a-dc7a-483e-c271-4f0f9a372831",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Neptune USA",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button13/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "aaa25ec0-c86b-4f43-c5f5-24a3c702de40",
+											"fieldName": "Button14",
+											"fieldParent": "72a3bf2a-dc7a-483e-c271-4f0f9a372831",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Neptune UK",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button14/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "b95aaf33-7d2c-4c58-af79-0b3a4617b716",
+									"fieldName": "CustomListItem",
+									"fieldParent": "653808c5-795b-453a-bfbf-5cbdfba50200",
+									"fieldType": "sap.m.CustomListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "c798a898-2043-4793-983e-920cf35307bd",
+											"fieldName": "HBoxFilterHeader1",
+											"fieldParent": "b95aaf33-7d2c-4c58-af79-0b3a4617b716",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMargin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c8b6628c-d523-45ff-ee88-6339d3785f42",
+													"fieldName": "Icon",
+													"fieldParent": "c798a898-2043-4793-983e-920cf35307bd",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginEnd",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://company-view",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "35px",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "gray",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "ad457d18-4dc2-447f-d2f4-58eda2989090",
+													"fieldName": "TextFilterHeader",
+													"fieldParent": "c798a898-2043-4793-983e-920cf35307bd",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Responsible",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "TextFilterHeader",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "77325cc0-92b8-4f12-82f1-9538fbd8e0d2",
+											"fieldName": "Button5",
+											"fieldParent": "b95aaf33-7d2c-4c58-af79-0b3a4617b716",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Camille Watkins",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button5/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "2d2c4eec-c092-44c1-b31a-3de1b8ea43a1",
+											"fieldName": "Button4",
+											"fieldParent": "b95aaf33-7d2c-4c58-af79-0b3a4617b716",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Frances Pierce",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button4/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "965a4c11-832a-4612-c745-4b9f27b94153",
+											"fieldName": "Button3",
+											"fieldParent": "b95aaf33-7d2c-4c58-af79-0b3a4617b716",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Joel Wilis",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button3/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "f20fa284-4ee4-4a32-b928-97d4fe25d410",
+							"fieldName": "ListByPerson",
+							"fieldParent": "c78066c7-7032-47e7-c6ae-322e574655bc",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "visible",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "9ead8a9c-8a80-4f7a-f6ac-aeb0ff7ac5dd",
+									"fieldName": "CustomListItem6",
+									"fieldParent": "f20fa284-4ee4-4a32-b928-97d4fe25d410",
+									"fieldType": "sap.m.CustomListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "2fae0b93-a017-4fe8-9529-0c4ac0335e18",
+											"fieldName": "HBoxFilterHeader2",
+											"fieldParent": "9ead8a9c-8a80-4f7a-f6ac-aeb0ff7ac5dd",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMargin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f3873b51-0cdc-41ac-b6f3-49e33f061cc2",
+													"fieldName": "Icon7",
+													"fieldParent": "2fae0b93-a017-4fe8-9529-0c4ac0335e18",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginEnd",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://clear-filter",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "35px",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "gray",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "452808b7-260b-4dfd-8aee-d1a63f186608",
+													"fieldName": "TextFilterHeader1",
+													"fieldParent": "2fae0b93-a017-4fe8-9529-0c4ac0335e18",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Candidate",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "TextFilterHeader",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "ac401309-dcb3-45e4-d160-f8cc23b6cfb7",
+											"fieldName": "Button9",
+											"fieldParent": "9ead8a9c-8a80-4f7a-f6ac-aeb0ff7ac5dd",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "ALL",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "oApp.toDetail(Page);",
+													"script": "oApp.toDetail(Page);",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "ed8dd89b-2043-4122-d6da-835f9f3045f3",
+											"fieldName": "Button15",
+											"fieldParent": "9ead8a9c-8a80-4f7a-f6ac-aeb0ff7ac5dd",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "More than 2 years of experience",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "oApp.toDetail(Page);",
+													"script": "oApp.toDetail(Page);",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "26e0f694-12f8-4b90-8e68-f8540dc50343",
+											"fieldName": "Button16",
+											"fieldParent": "9ead8a9c-8a80-4f7a-f6ac-aeb0ff7ac5dd",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "More than 5 years of experience",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "oApp.toDetail(Page);",
+													"script": "oApp.toDetail(Page);",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "5ded9235-8dc9-417c-c14e-33c32381b3e9",
+							"fieldName": "ListCandidateDetail",
+							"fieldParent": "c78066c7-7032-47e7-c6ae-322e574655bc",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "visible",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassVisibility",
+									"grouping": "Properties",
+									"value": "sapUiHideOnPhone",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "2ccaecd6-7ef7-4c31-be9e-967ca847e21c",
+									"fieldName": "CustomListItem2",
+									"fieldParent": "5ded9235-8dc9-417c-c14e-33c32381b3e9",
+									"fieldType": "sap.m.CustomListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "b3895bba-47cc-4940-dc4c-2938a6a3fece",
+											"fieldName": "HBoxFilterHeader4",
+											"fieldParent": "2ccaecd6-7ef7-4c31-be9e-967ca847e21c",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMargin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "51c55241-0970-4fe1-c495-10cdfcf8464f",
+													"fieldName": "Icon1",
+													"fieldParent": "b3895bba-47cc-4940-dc4c-2938a6a3fece",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginEnd",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://detail-view",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "35px",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "gray",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "59d31570-f7ba-403b-ee6f-9a30ec30df78",
+													"fieldName": "TextFilterHeader4",
+													"fieldParent": "b3895bba-47cc-4940-dc4c-2938a6a3fece",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Details",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "TextFilterHeader",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "99d50f27-6e67-4a12-d9f7-1243aa3ed428",
+											"fieldName": "Button24",
+											"fieldParent": "2ccaecd6-7ef7-4c31-be9e-967ca847e21c",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Interview Detail",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button24/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "4356ac66-89b5-4530-adbe-22f230543585",
+											"fieldName": "Button25",
+											"fieldParent": "2ccaecd6-7ef7-4c31-be9e-967ca847e21c",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Attachments",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button25/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "516e7b7f-b79f-428d-dd9b-0189d8a4bfb1",
+											"fieldName": "Button26",
+											"fieldParent": "2ccaecd6-7ef7-4c31-be9e-967ca847e21c",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Interview statistics",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button26/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "10395e87-b37c-45a4-e89b-f722b01e0bcc",
+					"fieldName": "oPageDetail2",
+					"fieldParent": "1d5a9126-9223-4b88-941d-26933c41e5d0",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Recruitment",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showNavButton",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addDetailPage",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "2f2445a5-d979-4470-93e3-90e5fe5367e9",
+							"fieldName": "oBarCustomHeader",
+							"fieldParent": "10395e87-b37c-45a4-e89b-f722b01e0bcc",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassVisibility",
+									"grouping": "Properties",
+									"value": "sapUiVisibleOnlyOnPhone",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "a0d33860-f8c9-4bcc-e5b1-82aa53060e70",
+									"fieldName": "Left",
+									"fieldParent": "2f2445a5-d979-4470-93e3-90e5fe5367e9",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "1e7c28f7-4006-4a3a-d176-1487e2e122a3",
+											"fieldName": "FilterButton",
+											"fieldParent": "a0d33860-f8c9-4bcc-e5b1-82aa53060e70",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "FilterButton",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/filter",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "oApp.backMaster(oPageMaster1);",
+													"script": "oApp.backMaster(oPageMaster1);",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "d9539543-2825-44d0-c635-67493f88d3b3",
+							"fieldName": "SearchField",
+							"fieldParent": "10395e87-b37c-45a4-e89b-f722b01e0bcc",
+							"fieldType": "sap.m.SearchField",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "liveChange",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.SearchField/SearchField/liveChange.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "3c118b8d-a5a7-49fa-a8bf-3d2705d6fa78",
+							"fieldName": "ListOpenPositions",
+							"fieldParent": "10395e87-b37c-45a4-e89b-f722b01e0bcc",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "mode",
+									"grouping": "Properties",
+									"value": "Delete",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "itemPress",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.List/ListOpenPositions/itemPress.js",
+									"language": "javascript",
+									"translation": []
+								},
+								{
+									"attribute": "delete",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.List/ListOpenPositions/delete.script",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "abfc2be6-7962-48c9-ebab-21c3f6cdc804",
+									"fieldName": "CustomListItem5",
+									"fieldParent": "3c118b8d-a5a7-49fa-a8bf-3d2705d6fa78",
+									"fieldType": "sap.m.CustomListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Active",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "f4972482-ab30-4878-917b-3f317627201a",
+											"fieldName": "HBoxMainStructure3",
+											"fieldParent": "abfc2be6-7962-48c9-ebab-21c3f6cdc804",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "justifyContent",
+													"grouping": "Properties",
+													"value": "SpaceBetween",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "fitContainer",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f4fb5319-06a2-4174-9809-d110864cffda",
+													"fieldName": "VBoxAlignInfo3",
+													"fieldParent": "f4972482-ab30-4878-917b-3f317627201a",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "e2455373-e546-4125-d438-bdb2d7ffecd3",
+															"fieldName": "TitleJobDescription3",
+															"fieldParent": "f4fb5319-06a2-4174-9809-d110864cffda",
+															"fieldType": "sap.m.Title",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "titleStyle",
+																	"grouping": "Properties",
+																	"value": "H4",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{TitleJobDescription}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiSmallMargin",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "level",
+																	"grouping": "Properties",
+																	"value": "H4",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "wrapping",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "ae210544-dda1-473b-ee5b-9dc541fcafd0",
+															"fieldName": "TitleTotalApplicants3",
+															"fieldParent": "f4fb5319-06a2-4174-9809-d110864cffda",
+															"fieldType": "sap.m.Title",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "titleStyle",
+																	"grouping": "Properties",
+																	"value": "H6",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{TitleTotalApplicants}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiSmallMarginBeginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "level",
+																	"grouping": "Properties",
+																	"value": "H6",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "686e7320-6307-4136-f65f-c85bf092bef2",
+															"fieldName": "TitleNewCandidates3",
+															"fieldParent": "f4fb5319-06a2-4174-9809-d110864cffda",
+															"fieldType": "sap.m.Title",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "titleStyle",
+																	"grouping": "Properties",
+																	"value": "H6",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{TitleNewCandidates}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiSmallMarginBeginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "level",
+																	"grouping": "Properties",
+																	"value": "H6",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "523e6c11-3f93-4697-fab3-d0d769210ffb",
+															"fieldName": "TitleToReqruit3",
+															"fieldParent": "f4fb5319-06a2-4174-9809-d110864cffda",
+															"fieldType": "sap.m.Title",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "titleStyle",
+																	"grouping": "Properties",
+																	"value": "H6",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{TitleToReqruit}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiSmallMarginBeginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "level",
+																	"grouping": "Properties",
+																	"value": "H6",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "252f3ea5-1fe9-4e81-95b9-155f8e1c7598",
+													"fieldName": "VBoxIcon3",
+													"fieldParent": "f4972482-ab30-4878-917b-3f317627201a",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "b715cdb8-904f-49a2-dadd-dbe594b6a790",
+															"fieldName": "Icon5",
+															"fieldParent": "252f3ea5-1fe9-4e81-95b9-155f8e1c7598",
+															"fieldType": "sap.ui.core.Icon",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiTinyMargin",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "{Icon}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "size",
+																	"grouping": "Properties",
+																	"value": "35px",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "color",
+																	"grouping": "Properties",
+																	"value": "{Color}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "41e9f382-2e77-46c9-ea90-171c0d5c3cad",
+															"fieldName": "Text3",
+															"fieldParent": "252f3ea5-1fe9-4e81-95b9-155f8e1c7598",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100px",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Center",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{status}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiTinyMargin",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "37c37348-2030-41ec-e3c3-c2c42d28e95b",
+					"fieldName": "PageCandidates",
+					"fieldParent": "1d5a9126-9223-4b88-941d-26933c41e5d0",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showNavButton",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addDetailPage",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "navButtonPress",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.Page/PageCandidates/navButtonPress.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "99291c1a-f963-4d24-c5d5-9135b938dbb0",
+							"fieldName": "oBarCustomHeader1",
+							"fieldParent": "37c37348-2030-41ec-e3c3-c2c42d28e95b",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "62d7d75c-133c-4939-a237-494704907618",
+									"fieldName": "Left1",
+									"fieldParent": "99291c1a-f963-4d24-c5d5-9135b938dbb0",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "73286e1a-1e77-4215-e10c-f76c7147ab36",
+											"fieldName": "FilterButtonWeb",
+											"fieldParent": "62d7d75c-133c-4939-a237-494704907618",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "FilterButton",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://nav-back",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/FilterButtonWeb/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "6a260fe7-b067-474d-d644-7d851487604d",
+											"fieldName": "FilterButton1",
+											"fieldParent": "62d7d75c-133c-4939-a237-494704907618",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassVisibility",
+													"grouping": "Properties",
+													"value": "sapUiVisibleOnlyOnPhone",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "FilterButton",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/filter",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Dialog.open();",
+													"script": "Dialog.open();",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "8fb22b51-b384-4cdf-e4d2-5a57203a8f14",
+							"fieldName": "FlexBox",
+							"fieldParent": "37c37348-2030-41ec-e3c3-c2c42d28e95b",
+							"fieldType": "sap.m.FlexBox",
+							"description": "",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "811c0d20-2b6d-416d-fb83-ee66a25a4b4a",
+									"fieldName": "ListCandidates",
+									"fieldParent": "8fb22b51-b384-4cdf-e4d2-5a57203a8f14",
+									"fieldType": "sap.m.List",
+									"description": "",
+									"script": "",
+									"customComponent": false,
+									"bindingValue": "Generic Array",
+									"bindingType": "h",
+									"bindingSource": "P9",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "growingTriggerText",
+											"grouping": "Properties",
+											"value": "See All",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "growingThreshold",
+											"grouping": "Properties",
+											"value": "100",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "growing",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "itemPress",
+											"grouping": "Events",
+											"value": "Dialog1.open();",
+											"script": "Dialog1.open();",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6401836a-68ba-43d2-de36-1689313054b5",
+											"fieldName": "itemListToDo",
+											"fieldParent": "811c0d20-2b6d-416d-fb83-ee66a25a4b4a",
+											"fieldType": "sap.m.CustomListItem",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Active",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "a1e80d46-928a-41d9-d3fb-e7ff673d23e2",
+													"fieldName": "VBox",
+													"fieldParent": "6401836a-68ba-43d2-de36-1689313054b5",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "50641d05-7b24-4d0c-efbf-babb3ad4d6d8",
+															"fieldName": "containerListToDo",
+															"fieldParent": "a1e80d46-928a-41d9-d3fb-e7ff673d23e2",
+															"fieldType": "sap.m.HBox",
+															"description": "",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "wrap",
+																	"grouping": "Properties",
+																	"value": "Wrap",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "nepHCMToDoList",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "SpaceBetween",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "03f97544-8fc2-41ce-e732-b871f298d3e3",
+																	"fieldName": "boxListToDoContent",
+																	"fieldParent": "50641d05-7b24-4d0c-efbf-babb3ad4d6d8",
+																	"fieldType": "sap.m.HBox",
+																	"description": "",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "200px",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "f9747d10-fa14-4c73-d561-9934667117d0",
+																			"fieldName": "boxListToDoIcon",
+																			"fieldParent": "03f97544-8fc2-41ce-e732-b871f298d3e3",
+																			"fieldType": "sap.m.VBox",
+																			"description": "",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "width",
+																					"grouping": "Properties",
+																					"value": "40px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClassMargin",
+																					"grouping": "Properties",
+																					"value": "sapUiSmallMarginEnd",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "nepHCMToDoListIcon",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "renderType",
+																					"grouping": "Properties",
+																					"value": "Bare",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "justifyContent",
+																					"grouping": "Properties",
+																					"value": "Start",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "alignItems",
+																					"grouping": "Properties",
+																					"value": "Center",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "a137272a-e827-449a-c072-bfdf1813d6dc",
+																					"fieldName": "image",
+																					"fieldParent": "f9747d10-fa14-4c73-d561-9934667117d0",
+																					"fieldType": "sap.m.Image",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "width",
+																							"grouping": "Properties",
+																							"value": "{imageWidth}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "image",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "src",
+																							"grouping": "Properties",
+																							"value": "{imageSrc}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "height",
+																							"grouping": "Properties",
+																							"value": "{imageHeight}",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		},
+																		{
+																			"fieldNo": "5259d247-ca97-494e-ec27-6a5fafe50742",
+																			"fieldName": "boxListToDoInfo",
+																			"fieldParent": "03f97544-8fc2-41ce-e732-b871f298d3e3",
+																			"fieldType": "sap.m.VBox",
+																			"description": "",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "styleClassMargin",
+																					"grouping": "Properties",
+																					"value": "sapUiTinyMarginBegin",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "nepHCMToDoListInfo",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "renderType",
+																					"grouping": "Properties",
+																					"value": "Bare",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "4a2f7d6c-d4f0-45bb-ff69-1bf54837649f",
+																					"fieldName": "typeListToDo",
+																					"fieldParent": "5259d247-ca97-494e-ec27-6a5fafe50742",
+																					"fieldType": "sap.m.Text",
+																					"description": "",
+																					"script": "",
+																					"customComponent": false,
+																					"disabled": true,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{type}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "nepHCMToDoListType",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "13aae2ec-0b71-4cdb-f194-a618ad47a0d4",
+																					"fieldName": "titleListToDo",
+																					"fieldParent": "5259d247-ca97-494e-ec27-6a5fafe50742",
+																					"fieldType": "sap.m.Text",
+																					"description": "",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "width",
+																							"grouping": "Properties",
+																							"value": "130px",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{title}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "nepHCMToDoListTitle",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "1db725af-63c2-482d-9161-c8ee6ceaa275",
+																					"fieldName": "descriptionListToDo",
+																					"fieldParent": "5259d247-ca97-494e-ec27-6a5fafe50742",
+																					"fieldType": "sap.m.Text",
+																					"description": "",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{description}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "nepHCMToDoListDescription",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "cfbb80cb-ceb4-412e-8790-f572b78cf3a1",
+																	"fieldName": "HBox1",
+																	"fieldParent": "50641d05-7b24-4d0c-efbf-babb3ad4d6d8",
+																	"fieldType": "sap.m.HBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "width",
+																			"grouping": "Properties",
+																			"value": "200px",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "9e0e549a-cbb3-4760-818a-c540ee12df17",
+																			"fieldName": "VboxStage",
+																			"fieldParent": "cfbb80cb-ceb4-412e-8790-f572b78cf3a1",
+																			"fieldType": "sap.m.VBox",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "width",
+																					"grouping": "Properties",
+																					"value": "200px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "00bb85e3-6a2b-4ddc-9c9c-6458304c5b49",
+																					"fieldName": "HBox",
+																					"fieldParent": "9e0e549a-cbb3-4760-818a-c540ee12df17",
+																					"fieldType": "sap.m.HBox",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "justifyContent",
+																							"grouping": "Properties",
+																							"value": "Start",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": [
+																						{
+																							"fieldNo": "dbc322f3-7d67-45ba-bc84-6c4c363a43cc",
+																							"fieldName": "Text4",
+																							"fieldParent": "00bb85e3-6a2b-4ddc-9c9c-6458304c5b49",
+																							"fieldType": "sap.m.Text",
+																							"script": "",
+																							"customComponent": false,
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "text",
+																									"grouping": "Properties",
+																									"value": "{status}",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": []
+																						}
+																					]
+																				},
+																				{
+																					"fieldNo": "610047d9-2ab3-4b65-b483-b48a93e4398a",
+																					"fieldName": "ProgressIndicator",
+																					"fieldParent": "9e0e549a-cbb3-4760-818a-c540ee12df17",
+																					"fieldType": "sap.m.ProgressIndicator",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "state",
+																							"grouping": "Properties",
+																							"value": "{status_level}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "percentValue",
+																							"grouping": "Properties",
+																							"value": "{level}",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "206e03ce-7ecc-4336-f23d-6a8ad677a7a8",
+																					"fieldName": "Progress",
+																					"fieldParent": "9e0e549a-cbb3-4760-818a-c540ee12df17",
+																					"fieldType": "nep.bootstrap.Progress",
+																					"script": "",
+																					"customComponent": false,
+																					"disabled": true,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "striped",
+																							"grouping": "Properties",
+																							"value": "false",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "animated",
+																							"grouping": "Properties",
+																							"value": "true",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "min",
+																							"grouping": "Properties",
+																							"value": "0",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "max",
+																							"grouping": "Properties",
+																							"value": "100",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "percentValue",
+																							"grouping": "Properties",
+																							"value": "{level}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "height",
+																							"grouping": "Properties",
+																							"value": "24px",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "backgroundColor",
+																							"grouping": "Properties",
+																							"value": "{status_level}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "backgroundGradient",
+																							"grouping": "Properties",
+																							"value": "true",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "textColor",
+																							"grouping": "Properties",
+																							"value": "Black50",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "textAlignment",
+																							"grouping": "Properties",
+																							"value": "Center",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "fontSize",
+																							"grouping": "Properties",
+																							"value": "FontSize6",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "fontWeight",
+																							"grouping": "Properties",
+																							"value": "Bold",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "6e80e5cf-bc8c-4b53-ef1c-6c78339b9571",
+																					"fieldName": "boxStep",
+																					"fieldParent": "9e0e549a-cbb3-4760-818a-c540ee12df17",
+																					"fieldType": "sap.m.HBox",
+																					"script": "",
+																					"customComponent": false,
+																					"disabled": true,
+																					"request": [],
+																					"response": [],
+																					"attributes": [],
+																					"data": [
+																						{
+																							"fieldNo": "5de63f79-443c-4ded-912c-6e61299b32b5",
+																							"fieldName": "Button6",
+																							"fieldParent": "6e80e5cf-bc8c-4b53-ef1c-6c78339b9571",
+																							"fieldType": "sap.m.Button",
+																							"script": "",
+																							"customComponent": false,
+																							"disabled": true,
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "type",
+																									"grouping": "Properties",
+																									"value": "{but1}",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "text",
+																									"grouping": "Properties",
+																									"value": "HR",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClassMargin",
+																									"grouping": "Properties",
+																									"value": "sapUiTinyMarginEnd",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClass",
+																									"grouping": "Properties",
+																									"value": "HCMPerBut",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": []
+																						},
+																						{
+																							"fieldNo": "b08f35dd-02da-4750-f5ec-a60df7bb614a",
+																							"fieldName": "Button7",
+																							"fieldParent": "6e80e5cf-bc8c-4b53-ef1c-6c78339b9571",
+																							"fieldType": "sap.m.Button",
+																							"script": "",
+																							"customComponent": false,
+																							"disabled": true,
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "type",
+																									"grouping": "Properties",
+																									"value": "{but2}",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "text",
+																									"grouping": "Properties",
+																									"value": "Technical",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClassMargin",
+																									"grouping": "Properties",
+																									"value": "sapUiTinyMarginEnd",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClass",
+																									"grouping": "Properties",
+																									"value": "HCMPerBut",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": []
+																						},
+																						{
+																							"fieldNo": "466dc917-d960-4ed1-d9d3-3bd177124dbc",
+																							"fieldName": "Button8",
+																							"fieldParent": "6e80e5cf-bc8c-4b53-ef1c-6c78339b9571",
+																							"fieldType": "sap.m.Button",
+																							"script": "",
+																							"customComponent": false,
+																							"disabled": true,
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "type",
+																									"grouping": "Properties",
+																									"value": "{but3}",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "text",
+																									"grouping": "Properties",
+																									"value": "HR",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "styleClass",
+																									"grouping": "Properties",
+																									"value": "HCMPerBut",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": []
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "e01c9c3a-fdf7-4c09-c593-6cc21b76788a",
+																	"fieldName": "boxListToDoAction",
+																	"fieldParent": "50641d05-7b24-4d0c-efbf-babb3ad4d6d8",
+																	"fieldType": "sap.m.VBox",
+																	"description": "",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "nepHCMToDoListAction",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "renderType",
+																			"grouping": "Properties",
+																			"value": "Bare",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignItems",
+																			"grouping": "Properties",
+																			"value": "End",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "f9e599fe-8102-439e-ac26-4ff238a29efb",
+																			"fieldName": "HBox3",
+																			"fieldParent": "e01c9c3a-fdf7-4c09-c593-6cc21b76788a",
+																			"fieldType": "sap.m.HBox",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "justifyContent",
+																					"grouping": "Properties",
+																					"value": "Center",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "6ad9b401-01fe-4656-b9a3-a9a94e74510b",
+																					"fieldName": "actionListToDoSource",
+																					"fieldParent": "f9e599fe-8102-439e-ac26-4ff238a29efb",
+																					"fieldType": "sap.m.Text",
+																					"description": "",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{source}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClassMargin",
+																							"grouping": "Properties",
+																							"value": "sapUiSmallMarginEnd",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "nepHCMToDoListSource",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		},
+																		{
+																			"fieldNo": "381a4bfd-a2bf-4a0e-ba3f-8dbe37065664",
+																			"fieldName": "HBox2",
+																			"fieldParent": "e01c9c3a-fdf7-4c09-c593-6cc21b76788a",
+																			"fieldType": "sap.m.HBox",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [],
+																			"data": [
+																				{
+																					"fieldNo": "2977712a-ea55-46d5-b4d9-b87ae965cd55",
+																					"fieldName": "Button",
+																					"fieldParent": "381a4bfd-a2bf-4a0e-ba3f-8dbe37065664",
+																					"fieldType": "sap.m.Button",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "Results",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "HCMPerBut",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "icon",
+																							"grouping": "Properties",
+																							"value": "sap-icon://feed",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "press",
+																							"grouping": "Events",
+																							"value": "Anonymous Function",
+																							"script": "file://event/sap.m.Button/Button/press.js",
+																							"language": "javascript",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "a3cd068f-907e-4ead-e23c-e486b8c8793b",
+					"fieldName": "PageCandidatesDetail",
+					"fieldParent": "1d5a9126-9223-4b88-941d-26933c41e5d0",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showNavButton",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "addDetailPage",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "navButtonPress",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.Page/PageCandidatesDetail/navButtonPress.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "900f6b35-6705-4b86-a4e3-3e2a6f87904d",
+							"fieldName": "HBoxHeader",
+							"fieldParent": "a3cd068f-907e-4ead-e23c-e486b8c8793b",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "HBoxHeader",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "SpaceBetween",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "200px",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "fitContainer",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "87d54722-2393-4512-b8ea-bf2f84b0be21",
+									"fieldName": "HBox12",
+									"fieldParent": "900f6b35-6705-4b86-a4e3-3e2a6f87904d",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiMediumMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "300px",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "dcb7a3fd-c75c-4e87-dadc-4449228255f3",
+											"fieldName": "Avatar1",
+											"fieldParent": "87d54722-2393-4512-b8ea-bf2f84b0be21",
+											"fieldType": "sap.f.Avatar",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "https://gtmdemosystem.neptune-software.cloud/media/root/Luuk%20W%C3%B6sten/people/Screenshot 2023-04-26 at 15.04.42.png",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "displaySize",
+													"grouping": "Properties",
+													"value": "XL",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMargin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "ce6afa75-62ba-4f03-88da-38ae2940a047",
+											"fieldName": "VBox8",
+											"fieldParent": "87d54722-2393-4512-b8ea-bf2f84b0be21",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "8da3ba3b-f234-43c6-b3ef-386260e87b26",
+													"fieldName": "Title1",
+													"fieldParent": "ce6afa75-62ba-4f03-88da-38ae2940a047",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "titleStyle",
+															"grouping": "Properties",
+															"value": "H4",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Kyle O. Johnson",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "level",
+															"grouping": "Properties",
+															"value": "H4",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "639974a6-3c1d-47ae-8245-0cd550eb850a",
+													"fieldName": "TextEMail1",
+													"fieldParent": "ce6afa75-62ba-4f03-88da-38ae2940a047",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Kyle.Johnson@gmail.com",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "20d86eab-323c-486a-dcf2-f5fd7bf51605",
+													"fieldName": "TextPhoneNumber1",
+													"fieldParent": "ce6afa75-62ba-4f03-88da-38ae2940a047",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "+44 444 55 55",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "96e9bcd2-daa4-4683-f0e8-220bf6df9d1a",
+							"fieldName": "FlexBox3",
+							"fieldParent": "a3cd068f-907e-4ead-e23c-e486b8c8793b",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "fitContainer",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "7b62a942-8750-4e62-f540-95d532c4a21a",
+									"fieldName": "PanelInterviewDetail",
+									"fieldParent": "96e9bcd2-daa4-4683-f0e8-220bf6df9d1a",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Interview Details",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "b11456af-c517-45e8-b81c-c73a47c91afc",
+											"fieldName": "Table",
+											"fieldParent": "7b62a942-8750-4e62-f540-95d532c4a21a",
+											"fieldType": "sap.m.Table",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "f13690b2-ddf8-48e3-f2e1-9e2174acb146",
+													"fieldName": "Column1",
+													"fieldParent": "b11456af-c517-45e8-b81c-c73a47c91afc",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "hAlign",
+															"grouping": "Properties",
+															"value": "Begin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "2dd0fb06-2012-47a0-98f5-d63df0f8411d",
+													"fieldName": "ColumnListItem",
+													"fieldParent": "b11456af-c517-45e8-b81c-c73a47c91afc",
+													"fieldType": "sap.m.ColumnListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "b6f7d260-f10a-4ed6-8bc8-87ed198492b2",
+															"fieldName": "HBox8",
+															"fieldParent": "2dd0fb06-2012-47a0-98f5-d63df0f8411d",
+															"fieldType": "sap.m.HBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "SpaceBetween",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fitContainer",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "75a568f2-51bd-46d9-90f4-7b3f0a09a0ab",
+																	"fieldName": "VBox3",
+																	"fieldParent": "b6f7d260-f10a-4ed6-8bc8-87ed198492b2",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "714370fc-653a-459a-9090-7a1a22d3bda4",
+																			"fieldName": "Title3",
+																			"fieldParent": "75a568f2-51bd-46d9-90f4-7b3f0a09a0ab",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H5",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Interview : HR",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H5",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "59df61e4-8bfb-40e3-a461-2381e542ce6d",
+																			"fieldName": "Title2",
+																			"fieldParent": "75a568f2-51bd-46d9-90f4-7b3f0a09a0ab",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Responsible : Carl",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "342a63fd-b63e-4f41-8d3f-6ce031df54bd",
+																	"fieldName": "VBox2",
+																	"fieldParent": "b6f7d260-f10a-4ed6-8bc8-87ed198492b2",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignItems",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignContent",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "42788319-33b5-4c30-c510-e51dc60e831f",
+																			"fieldName": "Icon9",
+																			"fieldParent": "342a63fd-b63e-4f41-8d3f-6ce031df54bd",
+																			"fieldType": "sap.ui.core.Icon",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "sap-icon://accept",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "color",
+																					"grouping": "Properties",
+																					"value": "green",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "d8d701b2-8fc9-4041-ea62-6dd2af1d9d0e",
+																			"fieldName": "Text5",
+																			"fieldParent": "342a63fd-b63e-4f41-8d3f-6ce031df54bd",
+																			"fieldType": "sap.m.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Successful",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "6d332524-4da7-4ca1-ea22-f365891ada0e",
+																			"fieldName": "Button22",
+																			"fieldParent": "342a63fd-b63e-4f41-8d3f-6ce031df54bd",
+																			"fieldType": "sap.m.Button",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "type",
+																					"grouping": "Properties",
+																					"value": "Success",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Details",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "46447ce4-7e45-4050-fe43-c0b67f69b1a3",
+													"fieldName": "ColumnListItem2",
+													"fieldParent": "b11456af-c517-45e8-b81c-c73a47c91afc",
+													"fieldType": "sap.m.ColumnListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "4d32b682-d0b7-424e-8671-590e14ee8cfb",
+															"fieldName": "HBox9",
+															"fieldParent": "46447ce4-7e45-4050-fe43-c0b67f69b1a3",
+															"fieldType": "sap.m.HBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "SpaceBetween",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fitContainer",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "d344cd40-8ecd-49b3-db8a-1ecbffc8fd05",
+																	"fieldName": "VBox6",
+																	"fieldParent": "4d32b682-d0b7-424e-8671-590e14ee8cfb",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "2bad84c5-2cd0-491b-fb99-537e361e220e",
+																			"fieldName": "Title6",
+																			"fieldParent": "d344cd40-8ecd-49b3-db8a-1ecbffc8fd05",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H5",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Interview : HR",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H5",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "14c05601-9afd-4ff6-eced-93336fc7118b",
+																			"fieldName": "Title7",
+																			"fieldParent": "d344cd40-8ecd-49b3-db8a-1ecbffc8fd05",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Responsible : Carl",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "2e47e656-4a88-49aa-ec0b-eec61510585d",
+																	"fieldName": "VBox7",
+																	"fieldParent": "4d32b682-d0b7-424e-8671-590e14ee8cfb",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignItems",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignContent",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "7a392cfb-cbfc-4f69-8e5d-fed151615334",
+																			"fieldName": "Icon6",
+																			"fieldParent": "2e47e656-4a88-49aa-ec0b-eec61510585d",
+																			"fieldType": "sap.ui.core.Icon",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "sap-icon://accept",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "color",
+																					"grouping": "Properties",
+																					"value": "green",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "fcb33757-8904-4603-c379-bb394cd81760",
+																			"fieldName": "Text7",
+																			"fieldParent": "2e47e656-4a88-49aa-ec0b-eec61510585d",
+																			"fieldType": "sap.m.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Successful",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "61f9dc0e-a03c-4113-fba0-0b31cf4119c1",
+																			"fieldName": "Button1",
+																			"fieldParent": "2e47e656-4a88-49aa-ec0b-eec61510585d",
+																			"fieldType": "sap.m.Button",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "type",
+																					"grouping": "Properties",
+																					"value": "Success",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Details",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "56cf2a56-6376-4748-807a-dfac8d7c77b3",
+													"fieldName": "ColumnListItem1",
+													"fieldParent": "b11456af-c517-45e8-b81c-c73a47c91afc",
+													"fieldType": "sap.m.ColumnListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "37cc43da-28f4-4218-bf58-fcc6042858f9",
+															"fieldName": "HBox10",
+															"fieldParent": "56cf2a56-6376-4748-807a-dfac8d7c77b3",
+															"fieldType": "sap.m.HBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "SpaceBetween",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fitContainer",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "d7935511-6783-4dae-ea6b-be279f35f667",
+																	"fieldName": "VBox4",
+																	"fieldParent": "37cc43da-28f4-4218-bf58-fcc6042858f9",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "72041a05-69c5-4063-cbf0-75f5ecb19b17",
+																			"fieldName": "Title4",
+																			"fieldParent": "d7935511-6783-4dae-ea6b-be279f35f667",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H5",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Interview : Technical",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H5",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "wrapping",
+																					"grouping": "Properties",
+																					"value": "true",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "f71d939c-b0c7-4647-f4b5-aced544695a0",
+																			"fieldName": "Title5",
+																			"fieldParent": "d7935511-6783-4dae-ea6b-be279f35f667",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Responsible : Mark",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "cab4a5cc-0817-4ee4-bd32-8c4368124865",
+																	"fieldName": "VBox5",
+																	"fieldParent": "37cc43da-28f4-4218-bf58-fcc6042858f9",
+																	"fieldType": "sap.m.VBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignItems",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignContent",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "3fd3f02f-a1fc-4b2a-b52b-00ddf5477058",
+																			"fieldName": "Icon10",
+																			"fieldParent": "cab4a5cc-0817-4ee4-bd32-8c4368124865",
+																			"fieldType": "sap.ui.core.Icon",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "sap-icon://decline",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "color",
+																					"grouping": "Properties",
+																					"value": "red",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "c7538813-4cf1-47f4-f052-a8ae8c5fb749",
+																			"fieldName": "Text6",
+																			"fieldParent": "cab4a5cc-0817-4ee4-bd32-8c4368124865",
+																			"fieldType": "sap.m.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Negative",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "5ac785ad-d9ff-4bb5-b6d4-37006ba4baa9",
+																			"fieldName": "Button23",
+																			"fieldParent": "cab4a5cc-0817-4ee4-bd32-8c4368124865",
+																			"fieldType": "sap.m.Button",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "type",
+																					"grouping": "Properties",
+																					"value": "Critical",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Details",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "7e5b11e7-6226-49c4-f2ab-7ff2c33adc28",
+									"fieldName": "PanelAttachments",
+									"fieldParent": "96e9bcd2-daa4-4683-f0e8-220bf6df9d1a",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Attachments",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "ee55ced7-4d41-473d-ccc2-5cffe721a864",
+											"fieldName": "AttachmentList",
+											"fieldParent": "7e5b11e7-6226-49c4-f2ab-7ff2c33adc28",
+											"fieldType": "sap.m.List",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "noDataText",
+													"grouping": "Properties",
+													"value": "No interview",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "growingTriggerText",
+													"grouping": "Properties",
+													"value": "See All",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "growingThreshold",
+													"grouping": "Properties",
+													"value": "100",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "growing",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "itemPress",
+													"grouping": "Events",
+													"value": "Dialog1.open();",
+													"script": "Dialog1.open();",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "23178c34-f1c0-4126-e0f0-2a45633ee05d",
+													"fieldName": "itemListToDo2",
+													"fieldParent": "ee55ced7-4d41-473d-ccc2-5cffe721a864",
+													"fieldType": "sap.m.CustomListItem",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "4d4f6412-cd65-486a-b702-353f2b4c945e",
+															"fieldName": "HBox6",
+															"fieldParent": "23178c34-f1c0-4126-e0f0-2a45633ee05d",
+															"fieldType": "sap.m.HBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "SpaceBetween",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fitContainer",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "712c6679-5e03-4818-ea96-70436f30c19c",
+																	"fieldName": "HBox7",
+																	"fieldParent": "4d4f6412-cd65-486a-b702-353f2b4c945e",
+																	"fieldType": "sap.m.HBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignItems",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignContent",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "575d8e9e-49e8-4d9a-9841-40bb271e208e",
+																			"fieldName": "Icon12",
+																			"fieldParent": "712c6679-5e03-4818-ea96-70436f30c19c",
+																			"fieldType": "sap.ui.core.Icon",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "styleClassMargin",
+																					"grouping": "Properties",
+																					"value": "sapUiTinyMargin",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "sap-icon://pdf-attachment",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "size",
+																					"grouping": "Properties",
+																					"value": "30px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "color",
+																					"grouping": "Properties",
+																					"value": "Gray",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "8b27c52b-a768-4be2-f6de-3e1f1e87b835",
+																			"fieldName": "Title9",
+																			"fieldParent": "712c6679-5e03-4818-ea96-70436f30c19c",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "CV.pdf",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClassMargin",
+																					"grouping": "Properties",
+																					"value": "sapUiTinyMargin",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "27796aff-195d-4c7e-b16d-50c78ab535dd",
+																	"fieldName": "Button10",
+																	"fieldParent": "4d4f6412-cd65-486a-b702-353f2b4c945e",
+																	"fieldType": "sap.m.Button",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "icon",
+																			"grouping": "Properties",
+																			"value": "sap-icon://fa-solid/download",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "press",
+																			"grouping": "Events",
+																			"value": "window.open(\"https://www.africau.edu/images/default/sample.pdf\");",
+																			"script": "window.open(\"https://www.africau.edu/images/default/sample.pdf\");",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "4f6b24bf-0925-40cf-a9a1-b28930c56754",
+													"fieldName": "itemListToDo1",
+													"fieldParent": "ee55ced7-4d41-473d-ccc2-5cffe721a864",
+													"fieldType": "sap.m.CustomListItem",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "4355d26e-459f-4157-e97b-feeb7666061f",
+															"fieldName": "HBox5",
+															"fieldParent": "4f6b24bf-0925-40cf-a9a1-b28930c56754",
+															"fieldType": "sap.m.HBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "renderType",
+																	"grouping": "Properties",
+																	"value": "Bare",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "SpaceBetween",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "fitContainer",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "cd207360-327e-4841-9798-5696526e78bd",
+																	"fieldName": "HBox4",
+																	"fieldParent": "4355d26e-459f-4157-e97b-feeb7666061f",
+																	"fieldType": "sap.m.HBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignItems",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "alignContent",
+																			"grouping": "Properties",
+																			"value": "Center",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "58b7a500-9985-4a09-91ca-f0f4c07612a2",
+																			"fieldName": "Icon11",
+																			"fieldParent": "cd207360-327e-4841-9798-5696526e78bd",
+																			"fieldType": "sap.ui.core.Icon",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "styleClassMargin",
+																					"grouping": "Properties",
+																					"value": "sapUiTinyMargin",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "src",
+																					"grouping": "Properties",
+																					"value": "sap-icon://pdf-attachment",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "size",
+																					"grouping": "Properties",
+																					"value": "30px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "color",
+																					"grouping": "Properties",
+																					"value": "Gray",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "93159dcc-2d34-4841-b6ef-b79a72197b93",
+																			"fieldName": "Title8",
+																			"fieldParent": "cd207360-327e-4841-9798-5696526e78bd",
+																			"fieldType": "sap.m.Title",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "titleStyle",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Projects.pdf",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClassMargin",
+																					"grouping": "Properties",
+																					"value": "sapUiTinyMargin",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "level",
+																					"grouping": "Properties",
+																					"value": "H6",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "bd2b6c5f-5c1d-4e33-bf69-f82e346a8ca0",
+																	"fieldName": "Button2",
+																	"fieldParent": "4355d26e-459f-4157-e97b-feeb7666061f",
+																	"fieldType": "sap.m.Button",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiTinyMargin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "icon",
+																			"grouping": "Properties",
+																			"value": "sap-icon://fa-solid/download",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "press",
+																			"grouping": "Events",
+																			"value": "window.open(\"https://www.africau.edu/images/default/sample.pdf\");",
+																			"script": "window.open(\"https://www.africau.edu/images/default/sample.pdf\");",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "8bd172cb-17be-4ca2-8a3e-87f41f8b9b16",
+									"fieldName": "PanelInterviewStatistics",
+									"fieldParent": "96e9bcd2-daa4-4683-f0e8-220bf6df9d1a",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Interview Statistics",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+											"fieldName": "VBox9",
+											"fieldParent": "8bd172cb-17be-4ca2-8a3e-87f41f8b9b16",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMargin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ec9c8a0d-a1a5-42c3-bbcb-5328b72fe81a",
+													"fieldName": "Title14",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Strong communication",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "b24ffdf1-d19f-4167-ec89-4385c72aff41",
+													"fieldName": "RatingIndicator4",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "3",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "blocked",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "322c4b6c-fcf8-4ab4-b51c-0f0b3ebcff0f",
+													"fieldName": "Title13",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Aptitude for teamwork",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "4416c3b9-57fc-4617-b8ef-7e1a31489d9b",
+													"fieldName": "RatingIndicator3",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "5",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "10633c0a-3ccc-4136-d343-f6e27490417b",
+													"fieldName": "Title11",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compatibility for collaboration",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "23b4898b-9d2c-406d-b431-3168062a1e3c",
+													"fieldName": "RatingIndicator2",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "3",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "fab7d631-0a65-4955-e2a3-3bffc7f54493",
+													"fieldName": "Title12",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Ability to work result and solution-oriented",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "59677235-3904-4e85-e332-bfd23af769f2",
+													"fieldName": "RatingIndicator1",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "5",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "be1a9433-df06-486e-d228-7a8658b11bda",
+													"fieldName": "Title10",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Having an entrepreneurial spirit",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "c7341672-c0a9-4acc-c898-7623927b6c8d",
+													"fieldName": "RatingIndicator",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "5",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "824fc3b6-8047-4623-aa55-af0110d27344",
+													"fieldName": "Title16",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Willingness to self-improvement",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "089d8a0c-4277-44a9-ea8f-07eb485fdd81",
+													"fieldName": "RatingIndicator7",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "3",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "9c157a90-632f-4a75-bed2-848d0f736e42",
+													"fieldName": "Title15",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Adaptability to differences",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "ea10adec-2d8e-4890-9096-238a44b931bd",
+													"fieldName": "RatingIndicator5",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "5",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "48123d69-03f3-4e29-83d1-7f62ab29ee5c",
+													"fieldName": "Title17",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Customer sensitivity",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "8871fbef-2cbc-4b76-8081-92c43eeac181",
+													"fieldName": "RatingIndicator6",
+													"fieldParent": "41859350-ad75-466e-a9c6-85f80d4ffa35",
+													"fieldType": "sap.m.RatingIndicator",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "4",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginTop",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "editable",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "17b57e44-bf59-47d0-e6cf-21e6afea02c8",
+									"fieldName": "IconTabBar",
+									"fieldParent": "96e9bcd2-daa4-4683-f0e8-220bf6df9d1a",
+									"fieldType": "sap.m.IconTabBar",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "98d7a703-7881-4aea-f752-55a8333da3d8",
+											"fieldName": "IconTabFilter",
+											"fieldParent": "17b57e44-bf59-47d0-e6cf-21e6afea02c8",
+											"fieldType": "sap.m.IconTabFilter",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Interview Status",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://information",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "d4f389f9-c507-434e-d43c-bbe3b866f145",
+											"fieldName": "IconTabFilter1",
+											"fieldParent": "17b57e44-bf59-47d0-e6cf-21e6afea02c8",
+											"fieldType": "sap.m.IconTabFilter",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Attachments",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://attachment",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": "ba89d207-fc67-4ca4-bf4a-bf0e74e3ea06",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"disabled": true,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": []
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "3404f9f6-1d65-46bf-ce34-50d58ccb6a18",
+					"fieldName": "Dialog1",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.Dialog",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "a6df9e6f-4245-4f34-e54c-576c26989d50",
+							"fieldName": "oBarDialogHeader1",
+							"fieldParent": "3404f9f6-1d65-46bf-ce34-50d58ccb6a18",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "918df7d8-b26b-4e3f-a8b5-91bd6cd96d4d",
+									"fieldName": "Left2",
+									"fieldParent": "a6df9e6f-4245-4f34-e54c-576c26989d50",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "2fafbc28-d4bd-43b1-d283-fb38e5ecc589",
+											"fieldName": "Button21",
+											"fieldParent": "918df7d8-b26b-4e3f-a8b5-91bd6cd96d4d",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-regular/window-close",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Dialog1.close();",
+													"script": "Dialog1.close();",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "1efe7218-9cc4-49e4-99c7-b9a22f6bda9a",
+							"fieldName": "FlexBox1",
+							"fieldParent": "3404f9f6-1d65-46bf-ce34-50d58ccb6a18",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "fitContainer",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "7b7d6f6f-fed4-4761-81a7-15c27fdfe272",
+									"fieldName": "VBox1",
+									"fieldParent": "1efe7218-9cc4-49e4-99c7-b9a22f6bda9a",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "e1ff2f7a-c3cf-44bd-8e48-30abfef293a5",
+											"fieldName": "Avatar",
+											"fieldParent": "7b7d6f6f-fed4-4761-81a7-15c27fdfe272",
+											"fieldType": "sap.f.Avatar",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "https://gtmdemosystem.neptune-software.cloud/media/root/Luuk%20W%C3%B6sten/people/Screenshot 2023-04-26 at 15.04.42.png",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "displaySize",
+													"grouping": "Properties",
+													"value": "XL",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "a78a5d94-40e4-4c4f-c896-65c681137ef3",
+											"fieldName": "Title",
+											"fieldParent": "7b7d6f6f-fed4-4761-81a7-15c27fdfe272",
+											"fieldType": "sap.m.Title",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "titleStyle",
+													"grouping": "Properties",
+													"value": "H6",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Kyle O. Johnson",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginTop",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "level",
+													"grouping": "Properties",
+													"value": "H6",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "a1d543c9-8194-4a2f-acf8-b3e427a2bb72",
+											"fieldName": "TextEMail",
+											"fieldParent": "7b7d6f6f-fed4-4761-81a7-15c27fdfe272",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Kyle.Johnson@gmail.com",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "d472ba1a-e8be-4724-953a-a1bfdaf0ee27",
+											"fieldName": "TextPhoneNumber",
+											"fieldParent": "7b7d6f6f-fed4-4761-81a7-15c27fdfe272",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "+44 444 55 55",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginTop",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "11dbe326-5248-45a0-c1ec-6ab4c97a9572",
+					"fieldName": "Dialog",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.Dialog",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "259175f4-c815-4f73-9bf3-5f6a946299f9",
+							"fieldName": "oBarDialogHeader",
+							"fieldParent": "11dbe326-5248-45a0-c1ec-6ab4c97a9572",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ef3dde82-3763-4e30-bf19-c9ff29784cf8",
+									"fieldName": "Left",
+									"fieldParent": "259175f4-c815-4f73-9bf3-5f6a946299f9",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "4024e4d5-8baf-486a-e6b0-1c00f855d9d5",
+											"fieldName": "Button17",
+											"fieldParent": "ef3dde82-3763-4e30-bf19-c9ff29784cf8",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-regular/window-close",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "Dialog.close();",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "f4f5622a-335a-46c8-e9a6-14397a6d80ea",
+							"fieldName": "List3",
+							"fieldParent": "11dbe326-5248-45a0-c1ec-6ab4c97a9572",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "visible",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "deec01ea-4e2e-4259-cd2f-f00669cce857",
+									"fieldName": "CustomListItem7",
+									"fieldParent": "f4f5622a-335a-46c8-e9a6-14397a6d80ea",
+									"fieldType": "sap.m.CustomListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "32ac1243-b119-436a-c207-c6bb84c23316",
+											"fieldName": "HBoxFilterHeader3",
+											"fieldParent": "deec01ea-4e2e-4259-cd2f-f00669cce857",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMargin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "3fa9c3a4-e7b0-4a0a-bcaa-b73ae79d9e7c",
+													"fieldName": "Icon8",
+													"fieldParent": "32ac1243-b119-436a-c207-c6bb84c23316",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMarginEnd",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://clear-filter",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "35px",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "gray",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "c3ea4c3f-054e-49d3-b7f3-ad0aed991f84",
+													"fieldName": "TextFilterHeader3",
+													"fieldParent": "32ac1243-b119-436a-c207-c6bb84c23316",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Candidate Filters",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "TextFilterHeader",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "41c5c8f2-48d8-4177-b613-52211beaf305",
+											"fieldName": "Button18",
+											"fieldParent": "deec01ea-4e2e-4259-cd2f-f00669cce857",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "ALL",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "oApp.toDetail(Page);",
+													"script": "oApp.toDetail(Page);",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "56216002-7abe-4d00-8578-b70c6846c27f",
+											"fieldName": "Button19",
+											"fieldParent": "deec01ea-4e2e-4259-cd2f-f00669cce857",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "More than 2 years of experience",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "oApp.toDetail(Page);",
+													"script": "oApp.toDetail(Page);",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "98ac9c51-f85d-449a-9246-eb8de8810147",
+											"fieldName": "Button20",
+											"fieldParent": "deec01ea-4e2e-4259-cd2f-f00669cce857",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "More than 5 years of experience",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "oApp.toDetail(Page);",
+													"script": "oApp.toDetail(Page);",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "9d628b37-b95f-4e2a-b0d2-d144078237c0",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.4.17.1530",
+	"application": "hcm_demo_recruitment",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5"
+}

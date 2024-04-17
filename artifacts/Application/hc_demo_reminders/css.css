@@ -1,0 +1,37 @@
+.nepHCMReminderList {
+    margin: 0.75rem 1rem;
+}
+.nepHCMReminderListTitle {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.nepHCMReminderListAction {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nepHCMReminderListAction .sapMBtn {
+    width: 120px;
+}
+// .nepHCMReminderListAction .sapMBtnInner {
+//     border-radius: 2rem;
+// }
+// .btn .sapMBtnInner {
+//     // border:none;
+//     // background-color: #b30000;
+//     // color: #fff;
+//     // font-family: "Rubik", sans-serif;
+//     border-width: 0px;
+//     border-bottom: 1px solid #2d3a4d;
+//     background: #c00;
+//     color: #fff;
+//     font-family: "Rubik", sans-serif !important;
+//     font-weight: bold;
+//     // font-size: 17px;
+//     // font-weight: 500;
+//     letter-spacing: 0.5px;
+//     text-transform: uppercase;
+//     transition: color 0.2s ease-out, background 0.2s ease-out, border-bottom-color 0.2s ease-out;
+//     // display: inline-block;
+//     line-height: normal;
+//     border-radius: 0rem !important;
+// }

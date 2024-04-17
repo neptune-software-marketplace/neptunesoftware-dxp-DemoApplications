@@ -1,0 +1,7 @@
+var options = {
+    data: {
+        "skill_name": Input.getValue(),
+        "level": RatingIndicator1.getValue(),
+    }
+};
+apiRestAPISkillsPost(options);

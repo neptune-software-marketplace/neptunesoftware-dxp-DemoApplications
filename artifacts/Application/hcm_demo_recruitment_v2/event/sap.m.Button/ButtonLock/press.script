@@ -1,0 +1,85 @@
+
+if(RatingIndicator4.getEditable() == false){
+    RatingIndicator4.setEditable(true);
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+    ButtonLock.setText("Save");
+}else{
+    RatingIndicator4.setEditable(false);
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+    ButtonLock.setText("Change");
+}
+if(RatingIndicator3.getEditable() == false){
+    RatingIndicator3.setEditable(true);
+    ButtonLock.setText("Save");
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+}else{
+    RatingIndicator3.setEditable(false);
+    ButtonLock.setText("Change");
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+}
+
+if(RatingIndicator2.getEditable() == false){
+    RatingIndicator2.setEditable(true);
+    ButtonLock.setText("Save");
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+}else{
+    RatingIndicator2.setEditable(false);
+    ButtonLock.setText("Change");
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+}
+
+if(RatingIndicator1.getEditable() == false){
+    RatingIndicator1.setEditable(true);
+    ButtonLock.setText("Save");
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+}else{
+    RatingIndicator1.setEditable(false);
+    ButtonLock.setText("Change");
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+}
+
+if(RatingIndicator.getEditable() == false){
+    RatingIndicator.setEditable(true);
+    ButtonLock.setText("Save");
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+}else{
+    RatingIndicator.setEditable(false);
+    ButtonLock.setText("Change");
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+}
+
+if(RatingIndicator7.getEditable() == false){
+    RatingIndicator7.setEditable(true);
+    ButtonLock.setText("Save");
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+}else{
+    RatingIndicator7.setEditable(false);
+    ButtonLock.setText("Change");
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+}
+
+if(RatingIndicator6.getEditable() == false){
+    RatingIndicator6.setEditable(true);
+    ButtonLock.setText("Save");
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+}else{
+    RatingIndicator6.setEditable(false);
+    ButtonLock.setText("Change");
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+}
+
+if(RatingIndicator5.getEditable() == false){
+    RatingIndicator5.setEditable(true);
+    ButtonLock.setText("Save");
+    ButtonLock.setIcon("sap-icon://fa-solid/unlock");
+}else{ 
+    RatingIndicator5.setEditable(false);
+    ButtonLock.setText("Change");
+    ButtonLock.setIcon("sap-icon://fa-solid/lock");
+}
+
+
+
+
+
+

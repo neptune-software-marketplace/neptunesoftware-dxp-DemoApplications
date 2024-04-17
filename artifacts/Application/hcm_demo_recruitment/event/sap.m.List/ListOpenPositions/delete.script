@@ -1,0 +1,4 @@
+ jQuery.sap.require("sap.m.MessageBox");
+     sap.m.MessageBox.show("Are you sure? Do you want to delete this position?","WARNING","Warning",["Yes","No"],function(){
+         
+     },"");

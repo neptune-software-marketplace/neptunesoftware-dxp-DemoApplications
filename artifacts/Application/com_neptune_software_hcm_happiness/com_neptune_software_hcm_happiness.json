@@ -1,0 +1,186 @@
+{
+	"id": "6fd142f0-7dce-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-29T22:06:49.236Z",
+	"createdBy": "morten.prom@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "57821eb8-78cb-4bcc-d710-483bd7fa292b",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"description": "",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "styleClass",
+					"grouping": "Properties",
+					"value": "nepHCMHappinessIcon",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "justifyContent",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "a23265c3-1d3e-45f0-e7b1-f05079dc1cd4",
+					"fieldName": "iconSmile",
+					"fieldParent": "57821eb8-78cb-4bcc-d710-483bd7fa292b",
+					"fieldType": "sap.ui.core.Icon",
+					"description": "",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "src",
+							"grouping": "Properties",
+							"value": "sap-icon://fa-regular/smile",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "press",
+							"grouping": "Events",
+							"value": "console.log(\"Smile...\");",
+							"script": "console.log(\"Smile...\");",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "8579a112-457c-4f6c-e6cd-3f34fae8cc97",
+					"fieldName": "iconMeh",
+					"fieldParent": "57821eb8-78cb-4bcc-d710-483bd7fa292b",
+					"fieldType": "sap.ui.core.Icon",
+					"description": "",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "src",
+							"grouping": "Properties",
+							"value": "sap-icon://fa-regular/meh",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "press",
+							"grouping": "Events",
+							"value": "console.log(\"Meh...\");",
+							"script": "console.log(\"Meh...\");",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "f4720ccf-1896-4b08-d5fc-dccaabc24065",
+					"fieldName": "iconFrown",
+					"fieldParent": "57821eb8-78cb-4bcc-d710-483bd7fa292b",
+					"fieldType": "sap.ui.core.Icon",
+					"description": "",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "src",
+							"grouping": "Properties",
+							"value": "sap-icon://fa-regular/frown",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "press",
+							"grouping": "Events",
+							"value": "console.log(\"Frown...\");",
+							"script": "console.log(\"Frown...\");",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.4.17.1530",
+	"application": "com_neptune_software_hcm_happiness",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5"
+}
