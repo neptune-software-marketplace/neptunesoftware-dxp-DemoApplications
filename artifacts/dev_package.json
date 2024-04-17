@@ -1,0 +1,51 @@
+{
+	"id": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5",
+	"createdAt": "2024-04-17T09:21:12.616Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-DemoApplications.git"
+	},
+	"name": "Deploy to DXP Demo",
+	"description": null,
+	"ver": "24.4.17.925",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "67ab2f88-588e-eb11-85aa-000d3ab08500",
+			"application": "highcharts_example",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
