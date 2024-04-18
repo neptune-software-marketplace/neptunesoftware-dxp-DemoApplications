@@ -1,0 +1,155 @@
+[
+	{
+		"id": "c2fb3265-c11f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689062599217",
+		"updatedAt": "1689062599217",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "CSS",
+		"level": 4
+	},
+	{
+		"id": "b3bc98e2-6e25-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689686878112",
+		"updatedAt": "1689686878112",
+		"createdBy": "lloyd.trevarthen@neptune-software.com",
+		"updatedBy": "lloyd.trevarthen@neptune-software.com",
+		"skill_name": "App Builder",
+		"level": 5
+	},
+	{
+		"id": "b2bc98e2-6e25-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689686868270",
+		"updatedAt": "1689686868270",
+		"createdBy": "lloyd.trevarthen@neptune-software.com",
+		"updatedBy": "lloyd.trevarthen@neptune-software.com",
+		"skill_name": "Copy writing",
+		"level": 4
+	},
+	{
+		"id": "a498771b-145d-ee11-9937-0022489e2e97",
+		"createdAt": "1695805152494",
+		"updatedAt": "1695805152494",
+		"createdBy": "helder.goncalves@neptune-software.com",
+		"updatedBy": "helder.goncalves@neptune-software.com",
+		"skill_name": "Mobility",
+		"level": 5
+	},
+	{
+		"id": "a398771b-145d-ee11-9937-0022489e2e97",
+		"createdAt": "1695805144658",
+		"updatedAt": "1695805144658",
+		"createdBy": "helder.goncalves@neptune-software.com",
+		"updatedBy": "helder.goncalves@neptune-software.com",
+		"skill_name": "Governance",
+		"level": 5
+	},
+	{
+		"id": "9452d124-145d-ee11-9937-0022489e2e97",
+		"createdAt": "1695805160284",
+		"updatedAt": "1695805160284",
+		"createdBy": "helder.goncalves@neptune-software.com",
+		"updatedBy": "helder.goncalves@neptune-software.com",
+		"skill_name": "Integration",
+		"level": 5
+	},
+	{
+		"id": "8528cda0-f14a-ee11-9937-0022489a57c0",
+		"createdAt": "1693811215030",
+		"updatedAt": "1693811215030",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "Tiles",
+		"level": 4
+	},
+	{
+		"id": "836f8184-7025-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689687569417",
+		"updatedAt": "1689687569417",
+		"createdBy": "lloyd.trevarthen@neptune-software.com",
+		"updatedBy": "lloyd.trevarthen@neptune-software.com",
+		"skill_name": "Workflows",
+		"level": 4
+	},
+	{
+		"id": "74ac5057-6551-ee11-9937-0022489a57c0",
+		"createdAt": "1694520620273",
+		"updatedAt": "1694520620273",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "ABAP",
+		"level": 5
+	},
+	{
+		"id": "72eb57f1-e41f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689077871576",
+		"updatedAt": "1689686860132",
+		"createdBy": "lloyd.trevarthen@neptune-software.com",
+		"updatedBy": "lloyd.trevarthen@neptune-software.com",
+		"skill_name": "Javascript",
+		"level": 3
+	},
+	{
+		"id": "6af089eb-c01f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689062402150",
+		"updatedAt": "1694500667605",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "UI5",
+		"level": 5
+	},
+	{
+		"id": "695b3070-c11f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689062617652",
+		"updatedAt": "1689147544577",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "SAP ABAP",
+		"level": 2
+	},
+	{
+		"id": "56b5e1db-6e25-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689686857010",
+		"updatedAt": "1689686857010",
+		"createdBy": "lloyd.trevarthen@neptune-software.com",
+		"updatedBy": "lloyd.trevarthen@neptune-software.com",
+		"skill_name": "Video Editing",
+		"level": 4
+	},
+	{
+		"id": "3f078179-c31f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689063492271",
+		"updatedAt": "1689147538150",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "smartforms",
+		"level": 3
+	},
+	{
+		"id": "3b2dd45e-c11f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689062588453",
+		"updatedAt": "1689062588453",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "HTML",
+		"level": 4
+	},
+	{
+		"id": "2dc89d98-fa1f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689087171345",
+		"updatedAt": "1689147541170",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "SAP ABAP",
+		"level": 4
+	},
+	{
+		"id": "290e11ca-c01f-ee11-a9bb-000d3ada9c9b",
+		"createdAt": "1689062348571",
+		"updatedAt": "1693825312821",
+		"createdBy": "kaan.koska@neptune-software.com",
+		"updatedBy": "kaan.koska@neptune-software.com",
+		"skill_name": "Javascript",
+		"level": 5
+	}
+]

@@ -1,0 +1,4 @@
+if (!!iconColor) {
+    this.addStyleClass("nepHCMIllustrativeColor" + iconColor);
+}
+return "";

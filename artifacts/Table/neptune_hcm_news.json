@@ -1,0 +1,38 @@
+{
+	"id": "15019689-451a-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-07-04T08:34:09.476Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "08fb4f40-d283-4454-8ead-3d663df73cd6",
+			"fieldName": "uniqe_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d4d5b5ad-2f3a-4c12-f6d5-8e8cc8ef1d3e",
+			"fieldName": "des",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "eaedd9be-2ea2-4724-de82-1fffcf929819",
+			"fieldName": "ima",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "neptune_hcm_news",
+	"description": null,
+	"ver": "24.4.18.1236",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,105 @@
+.nepHCMToDoList {
+  margin: 0.75rem 1rem;
+}
+
+.nepHCMToDoListDescription,
+.nepHCMToDoListSource,
+.nepHCMToDoListType {
+  font-size: 0.75rem;
+}
+
+.nepHCMToDoListTitle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nepHCMToDoListDescription,
+.nepHCMToDoListSource,
+.nepHCMToDoListType,
+.nepHCMToDoListTitle {
+  margin-bottom: 0.25rem;
+}
+
+.nepHCMToDoListDate {
+  font-size: 1rem;
+}
+
+.nepHCMIllustrativeColor1 {
+  color: var(--sapContent_Illustrative_Color1);
+}
+
+.nepHCMIllustrativeColor2 {
+  color: var(--sapContent_Illustrative_Color2);
+}
+
+.nepHCMIllustrativeColor3 {
+  color: var(--sapContent_Illustrative_Color3);
+}
+
+.nepHCMIllustrativeColor4 {
+  color: var(--sapContent_Illustrative_Color4);
+}
+
+.nepHCMIllustrativeColor5 {
+  color: var(--sapContent_Illustrative_Color5);
+}
+
+.nepHCMIllustrativeColor6 {
+  color: var(--sapContent_Illustrative_Color6);
+}
+
+.nepHCMIllustrativeColor7 {
+  color: var(--sapContent_Illustrative_Color7);
+}
+
+.nepHCMIllustrativeColor8 {
+  color: var(--sapContent_Illustrative_Color8);
+}
+
+.nepHCMIllustrativeColor9 {
+  color: var(--sapContent_Illustrative_Color9);
+}
+
+.nepHCMIllustrativeColor10 {
+  color: var(--sapContent_Illustrative_Color10);
+}
+
+.nepHCMIllustrativeColor11 {
+  color: var(--sapContent_Illustrative_Color11);
+}
+
+.nepHCMIllustrativeColor12 {
+  color: var(--sapContent_Illustrative_Color12);
+}
+
+.nepHCMIllustrativeColor13 {
+  color: var(--sapContent_Illustrative_Color13);
+}
+
+.nepHCMIllustrativeColor14 {
+  color: var(--sapContent_Illustrative_Color14);
+}
+
+.nepHCMIllustrativeColor15 {
+  color: var(--sapContent_Illustrative_Color15);
+}
+
+.nepHCMIllustrativeColor16 {
+  color: var(--sapContent_Illustrative_Color16);
+}
+
+.nepHCMIllustrativeColor17 {
+  color: var(--sapContent_Illustrative_Color17);
+}
+
+.nepHCMIllustrativeColor18 {
+  color: var(--sapContent_Illustrative_Color18);
+}
+
+.nepHCMIllustrativeColor19 {
+  color: var(--sapContent_Illustrative_Color19);
+}
+
+.nepHCMIllustrativeColor20 {
+  color: var(--sapContent_Illustrative_Color20);
+}

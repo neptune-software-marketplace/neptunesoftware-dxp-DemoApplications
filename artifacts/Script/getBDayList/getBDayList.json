@@ -1,0 +1,28 @@
+{
+	"id": "d0e2f5a1-6acd-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-28T13:15:39.593Z",
+	"createdBy": "avinash.ambalgi@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [
+		{
+			"id": "4b794fa7-0723-4eb3-dc3e-79c535ad646d",
+			"parent": "00762a3a-32e3-ec11-b656-0050f2e2d690",
+			"name": "/getTodayBDay",
+			"contextname": "getTodayBDay",
+			"method": "POST"
+		}
+	],
+	"name": "getBDayList",
+	"ver": "23.3.28.1347",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "19c55856-98c8-ed11-a8e0-000d3a67f81f",
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5"
+}

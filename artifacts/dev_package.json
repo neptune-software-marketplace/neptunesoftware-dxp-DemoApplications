@@ -7,9 +7,18 @@
 	},
 	"name": "Deploy to DXP Demo",
 	"description": null,
-	"ver": "24.4.17.1350",
+	"ver": "24.4.18.1024",
 	"enableCICD": true,
 	"apps": [
+		{
+			"id": "f678c2a4-e9e4-ed11-9f73-000d3aba0713",
+			"application": "performancesummary",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
 		{
 			"id": "942c2a12-311b-ee11-907c-000d3ab76cc2",
 			"application": "neptune_hcm_ad_your_skills",
@@ -40,6 +49,15 @@
 		{
 			"id": "67ab2f88-588e-eb11-85aa-000d3ab08500",
 			"application": "highcharts_example",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "46e56306-451a-ee11-907c-000d3ab76cc2",
+			"application": "neptune_hcm_news_section",
 			"title": "",
 			"description": "",
 			"package": {
@@ -81,29 +99,99 @@
 			"package": {
 				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
 			}
+		},
+		{
+			"id": "0ed4271a-d2ce-ed11-a8de-000d3a65e714",
+			"application": "com_neptune_software_hcm_todo",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "0ab2b3fa-82ce-ed11-a8de-000d3a65e714",
+			"application": "com_neptune_software_hcm_today",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F52D71D3-9BFC-EE11-AAF0-000D3AB82DC5"
+			}
 		}
 	],
 	"api": [
+		{
+			"id": "800dd90c-6dcd-ed11-a8de-000d3a65e714",
+			"name": "hcm_birthdays_p9_api",
+			"description": null,
+			"apiGroup": "12ab7e81-6acd-ed11-a8de-000d3a65e714"
+		},
 		{
 			"id": "569b3167-421b-ee11-907c-000d3ab76cc2",
 			"name": "Gartner Employee Skills",
 			"description": null,
 			"apiGroup": null
+		},
+		{
+			"id": "00762a3a-32e3-ec11-b656-0050f2e2d690",
+			"name": "zcl_api_hcm_emp_birthday",
+			"description": null,
+			"apiGroup": "12ab7e81-6acd-ed11-a8de-000d3a65e714"
 		}
 	],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
-	"jsclass": [],
-	"jsscript_group": [],
+	"dictionary": [
+		{
+			"id": "722f6335-3f1b-ee11-907c-000d3ab76cc2",
+			"name": "neptune_hcm_employee_skills",
+			"description": null
+		},
+		{
+			"id": "15019689-451a-ee11-907c-000d3ab76cc2",
+			"name": "neptune_hcm_news",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "d0e2f5a1-6acd-ed11-a8de-000d3a65e714",
+			"name": "getBDayList",
+			"description": null
+		},
+		{
+			"id": "398f3063-98c8-ed11-a8e0-000d3a67f81f",
+			"name": "sendBDayWishes",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "19c55856-98c8-ed11-a8e0-000d3a67f81f",
+			"name": "HCM_BDAY_JOB",
+			"description": null
+		}
+	],
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [],
 	"reports": [],
 	"api_authentication": [],
 	"api_group": [],
-	"tile": [],
-	"category": [],
+	"tile": [
+		{
+			"id": "baa47b3f-461a-ee11-907c-000d3ab76cc2",
+			"description": null,
+			"name": "hcm_news_section"
+		}
+	],
+	"category": [
+		{
+			"id": "75c7217d-4de3-ed11-9f73-000d3aba0713",
+			"description": null,
+			"name": "HCM Template Master MySpace"
+		}
+	],
 	"launchpad": [],
 	"certificates": [],
 	"role": [],

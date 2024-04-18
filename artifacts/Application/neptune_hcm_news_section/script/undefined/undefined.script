@@ -1,0 +1,12 @@
+.nepHCMFeed .sapMCrslInner {
+  transition-duration: 0.001s;
+}
+
+@media (max-width: 1024px) {
+  .nepHCMFeed .sapMCrslInner {
+    transition-duration: 0.001s;
+  }
+}
+.nepHCMFeedContent {
+  margin: 1rem 1rem 0.5rem 1rem;
+}

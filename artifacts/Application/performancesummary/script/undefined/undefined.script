@@ -1,0 +1,31 @@
+.HCMSumDescr {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.HCMSumValue {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.ObjectIdentifierPerformance.sapMObjectIdentifierTitle .sapMText {
+  font-size: 30px;
+}
+
+.PerformanceSummaryBox {
+  background: transparent;
+  width: 130px;
+  padding: 4.1px;
+}
+
+.NumberText {
+  color: "#003E52e";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.DescriptionText {
+  color: "#003E52e";
+  font-weight: bold;
+  font-size: 15px;
+}

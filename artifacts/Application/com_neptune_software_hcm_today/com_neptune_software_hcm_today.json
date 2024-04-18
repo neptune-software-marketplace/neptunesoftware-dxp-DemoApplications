@@ -1,0 +1,396 @@
+{
+	"id": "0ab2b3fa-82ce-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-29T22:43:30.633Z",
+	"createdBy": "morten.prom@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "9c348809-03ab-48f5-dc04-d5c079969935",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"description": "",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "1051348c-c83c-41d9-8ba5-6c6e2e7dd7fe",
+					"fieldName": "ListToday",
+					"fieldParent": "9c348809-03ab-48f5-dc04-d5c079969935",
+					"fieldType": "sap.m.List",
+					"description": "",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showSeparators",
+							"grouping": "Properties",
+							"value": "None",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "growingTriggerText",
+							"grouping": "Properties",
+							"value": "See All",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "e0ddcb34-3522-4278-c29b-8ba5aa5d89a5",
+							"fieldName": "itemListToday",
+							"fieldParent": "1051348c-c83c-41d9-8ba5-6c6e2e7dd7fe",
+							"fieldType": "sap.m.CustomListItem",
+							"description": "",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Inactive",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "highlight",
+									"grouping": "Properties",
+									"value": "{statusState}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "528cab45-68dd-4ea6-b0d0-6f43e5cb5f26",
+									"fieldName": "containerListToday",
+									"fieldParent": "e0ddcb34-3522-4278-c29b-8ba5aa5d89a5",
+									"fieldType": "sap.m.HBox",
+									"description": "",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginBeginEnd",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "nepHCMTodayList",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "renderType",
+											"grouping": "Properties",
+											"value": "Bare",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "SpaceBetween",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "faa81508-8660-4e31-bb5f-54d55535b41c",
+											"fieldName": "boxListTodayInfo",
+											"fieldParent": "528cab45-68dd-4ea6-b0d0-6f43e5cb5f26",
+											"fieldType": "sap.m.VBox",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "nepHCMTodayListInfo",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c56a27aa-23d5-4d6a-fe7a-6701fb43396e",
+													"fieldName": "titleListToday",
+													"fieldParent": "faa81508-8660-4e31-bb5f-54d55535b41c",
+													"fieldType": "sap.m.Text",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{title}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMTodayListTitle",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "96f50798-febc-4478-8b2e-9a1cf7937db2",
+													"fieldName": "statusListToday",
+													"fieldParent": "faa81508-8660-4e31-bb5f-54d55535b41c",
+													"fieldType": "sap.m.ObjectStatus",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{statusText}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMTodayListStatus",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "state",
+															"grouping": "Properties",
+															"value": "{statusState}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "3fe2f98e-e7bb-4c7a-cfdc-a201e41886b0",
+													"fieldName": "locationListToday",
+													"fieldParent": "faa81508-8660-4e31-bb5f-54d55535b41c",
+													"fieldType": "sap.m.Text",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{location}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMTodayListLocation",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "b86cd0d0-41e1-4602-9335-fbb929e0e068",
+											"fieldName": "boxListTodayAction",
+											"fieldParent": "528cab45-68dd-4ea6-b0d0-6f43e5cb5f26",
+											"fieldType": "sap.m.VBox",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginBegin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "nepHCMTodayListAction",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "justifyContent",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "4edfbde6-fc1d-425f-b71d-9fa21dd9b7d3",
+													"fieldName": "Button",
+													"fieldParent": "b86cd0d0-41e1-4602-9335-fbb929e0e068",
+													"fieldType": "sap.m.Button",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Ghost",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{actionText}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "752d9b65-90d2-47d4-ea20-c5c44b0f1005",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.4.18.1241",
+	"application": "com_neptune_software_hcm_today",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5"
+}

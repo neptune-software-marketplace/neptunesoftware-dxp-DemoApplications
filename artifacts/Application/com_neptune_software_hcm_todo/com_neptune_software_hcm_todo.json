@@ -1,0 +1,502 @@
+{
+	"id": "0ed4271a-d2ce-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-30T08:10:02.260Z",
+	"createdBy": "morten.prom@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "d0e5bfa5-866f-45d0-c991-26198300c474",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"description": "",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "f8299831-18f2-42f6-ad8d-02c01dd3e377",
+					"fieldName": "ListToDo",
+					"fieldParent": "d0e5bfa5-866f-45d0-c991-26198300c474",
+					"fieldType": "sap.m.List",
+					"description": "",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "454e2a8a-e4e5-49e0-c0de-a6c62e361db3",
+							"fieldName": "itemListToDo",
+							"fieldParent": "f8299831-18f2-42f6-ad8d-02c01dd3e377",
+							"fieldType": "sap.m.CustomListItem",
+							"description": "",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Active",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "61e3f62b-8ee1-4383-96d6-79c4e171107a",
+									"fieldName": "containerListToDo",
+									"fieldParent": "454e2a8a-e4e5-49e0-c0de-a6c62e361db3",
+									"fieldType": "sap.m.HBox",
+									"description": "",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "nepHCMToDoList",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "renderType",
+											"grouping": "Properties",
+											"value": "Bare",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "SpaceBetween",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "bc811e48-76e1-4305-9330-d819b780abe1",
+											"fieldName": "boxListToDoContent",
+											"fieldParent": "61e3f62b-8ee1-4383-96d6-79c4e171107a",
+											"fieldType": "sap.m.HBox",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f5e13c15-92ff-4385-a32b-10473e518a37",
+													"fieldName": "boxListToDoIcon",
+													"fieldParent": "bc811e48-76e1-4305-9330-d819b780abe1",
+													"fieldType": "sap.m.VBox",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "4rem",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMarginEnd",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMToDoListIcon",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "renderType",
+															"grouping": "Properties",
+															"value": "Bare",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Start",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "alignItems",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "4eae0a60-9a19-4e43-81cc-9567f11d2429",
+															"fieldName": "Icon",
+															"fieldParent": "f5e13c15-92ff-4385-a32b-10473e518a37",
+															"fieldType": "sap.ui.core.Icon",
+															"description": "",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "{iconSrc}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "size",
+																	"grouping": "Properties",
+																	"value": "{iconSize}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "color",
+																	"grouping": "Properties",
+																	"value": "{iconColor}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "color",
+																	"grouping": "Formatter",
+																	"value": "Anonymous Function",
+																	"script": "file://event/sap.ui.core.Icon/Icon/color.script",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "5fe83bd4-5592-4758-863c-0006bcd6c04e",
+													"fieldName": "boxListToDoInfo",
+													"fieldParent": "bc811e48-76e1-4305-9330-d819b780abe1",
+													"fieldType": "sap.m.VBox",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMToDoListInfo",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "renderType",
+															"grouping": "Properties",
+															"value": "Bare",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "e2ac267c-d6ea-41c4-acda-86e4ff26eed0",
+															"fieldName": "typeListToDo",
+															"fieldParent": "5fe83bd4-5592-4758-863c-0006bcd6c04e",
+															"fieldType": "sap.m.Text",
+															"description": "",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{type}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "nepHCMToDoListType",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "6bba9d08-39c1-404e-b50f-2bc9b90542e4",
+															"fieldName": "titleListToDo",
+															"fieldParent": "5fe83bd4-5592-4758-863c-0006bcd6c04e",
+															"fieldType": "sap.m.Text",
+															"description": "",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{title}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "nepHCMToDoListTitle",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "cbd378da-70fa-4834-c8ca-5159303f0ba1",
+															"fieldName": "descriptionListToDo",
+															"fieldParent": "5fe83bd4-5592-4758-863c-0006bcd6c04e",
+															"fieldType": "sap.m.Text",
+															"description": "",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{description}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "nepHCMToDoListDescription",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "2a4c5bd0-65b6-4cbc-ec82-64f664c9f661",
+											"fieldName": "boxListToDoAction",
+											"fieldParent": "61e3f62b-8ee1-4383-96d6-79c4e171107a",
+											"fieldType": "sap.m.VBox",
+											"description": "",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "nepHCMToDoListAction",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "End",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "78b01329-3c6f-4530-db55-2c476883d1fc",
+													"fieldName": "actionListToDoSource",
+													"fieldParent": "2a4c5bd0-65b6-4cbc-ec82-64f664c9f661",
+													"fieldType": "sap.m.Text",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{source}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMToDoListSource",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "3f10e802-23b0-4164-bd25-19c8db31479f",
+													"fieldName": "actionListToDoDate",
+													"fieldParent": "2a4c5bd0-65b6-4cbc-ec82-64f664c9f661",
+													"fieldType": "sap.m.Text",
+													"description": "",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{date}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nepHCMToDoListDate",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "752d9b65-90d2-47d4-ea20-c5c44b0f1005",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.4.18.1243",
+	"application": "com_neptune_software_hcm_todo",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5"
+}

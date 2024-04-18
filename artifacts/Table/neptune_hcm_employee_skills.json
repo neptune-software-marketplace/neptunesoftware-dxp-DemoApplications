@@ -1,0 +1,29 @@
+{
+	"id": "722f6335-3f1b-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-07-05T14:21:24.476Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "55827ce4-5c82-4287-af9a-97c9aa833aa5",
+			"fieldName": "skill_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "ee35de51-2707-43ff-92bb-c0bff10bd0a4",
+			"fieldName": "level",
+			"fieldType": "integer",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "neptune_hcm_employee_skills",
+	"description": null,
+	"ver": "24.4.18.1237",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5",
+	"rolesRead": [],
+	"rolesWrite": []
+}

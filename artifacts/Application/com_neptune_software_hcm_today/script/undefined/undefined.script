@@ -1,0 +1,23 @@
+.nepHCMTodayListTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.nepHCMTodayListStatus.sapMObjStatus .sapMObjStatusText {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.nepHCMTodayListLocation {
+  font-size: 0.75rem;
+}
+
+.nepHCMTodayListAction .sapMBtn {
+  width: 120px;
+}
+
+.nepHCMTodayListAction .sapMBtnInner {
+  border-radius: 2rem;
+}

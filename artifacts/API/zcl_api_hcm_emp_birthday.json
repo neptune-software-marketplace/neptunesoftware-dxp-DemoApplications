@@ -1,0 +1,858 @@
+{
+	"id": "00762a3a-32e3-ec11-b656-0050f2e2d690",
+	"createdAt": "2023-03-22T14:29:30.486Z",
+	"createdBy": "avinash.ambalgi@neptune-software.com",
+	"auth": [
+		{
+			"role": "DEF",
+			"apiAuth": "7B4DEDE6-3F67-EE11-9937-0022489E2195",
+			"authName": "N4D_PP_2023",
+			"authDesc": "",
+			"id": "b6a07f7b-b400-4564-eb15-f9b0cdc5fd65"
+		}
+	],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "498f4484-ca9e-4536-c711-8ed46a5b5c91",
+			"path": "/getAllBDay",
+			"method": "POST",
+			"example": "",
+			"responses": [
+				{
+					"status": "200",
+					"description": "Status 200",
+					"headers": [],
+					"content": [
+						{
+							"name": "postgetAllBDayResponse",
+							"objectType": "object"
+						}
+					]
+				},
+				{
+					"status": "404",
+					"headers": [],
+					"content": []
+				}
+			],
+			"headers": [],
+			"parameters": [
+				{
+					"name": "$select",
+					"description": "Select fieldnames to be returned. Separated by comma",
+					"inPath": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-client",
+					"description": "SAP Client",
+					"inPath": false,
+					"default": "100",
+					"required": true,
+					"type": "string"
+				}
+			],
+			"content": []
+		},
+		{
+			"id": "4b794fa7-0723-4eb3-dc3e-79c535ad646d",
+			"path": "/getTodayBDay",
+			"method": "POST",
+			"example": "",
+			"responses": [
+				{
+					"status": "200",
+					"description": "Status 200",
+					"headers": [],
+					"content": [
+						{
+							"name": "postgetTodayBDayResponse",
+							"objectType": "object"
+						}
+					]
+				},
+				{
+					"status": "404",
+					"headers": [],
+					"content": []
+				}
+			],
+			"headers": [],
+			"parameters": [
+				{
+					"name": "$select",
+					"description": "Select fieldnames to be returned. Separated by comma",
+					"inPath": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-client",
+					"description": "SAP Client",
+					"inPath": false,
+					"default": "100",
+					"required": true,
+					"type": "string"
+				}
+			],
+			"content": []
+		}
+	],
+	"definitions": [
+		{
+			"id": "8ac8a48f-6620-4e66-a33a-6d168a63d366",
+			"name": "dataRequest",
+			"description": "Key Value Structure",
+			"properties": [
+				{
+					"id": "b74d7a0d-4d16-42d4-fa14-34c0b0d347a1",
+					"required": true,
+					"name": "KEY",
+					"parent": "",
+					"description": "Name of dataset",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": ""
+				},
+				{
+					"id": "0d81af1b-d22d-4f27-a58c-2999f84b2dbf",
+					"required": true,
+					"name": "VALUE",
+					"parent": "",
+					"description": "JSON String of dataset",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": ""
+				}
+			]
+		},
+		{
+			"id": "f6662c2b-3c5f-498d-cccf-6bbdde27f336",
+			"name": "errorResponse",
+			"description": "Error object returned from SAP",
+			"properties": [
+				{
+					"id": "23fcf47f-653f-4296-e07f-549db70d861e",
+					"name": "ERROR_CODE",
+					"parent": "",
+					"description": "Error Code",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": ""
+				},
+				{
+					"id": "77769ba5-d0a7-4602-f7c7-8a8b5f348fc9",
+					"name": "ERROR_TEXT",
+					"parent": "",
+					"description": "Description of the error",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": ""
+				}
+			]
+		},
+		{
+			"id": "a5d65292-cb8a-490b-c4a9-1cd9e5aacfe2",
+			"name": "postgetAllBDayResponse",
+			"properties": [
+				{
+					"id": "b019db52-4546-4bfa-cdd8-15bab963bd7c",
+					"name": "PERNR",
+					"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"description": "Personnel Number",
+					"pattern": "",
+					"example": "",
+					"objectType": "number",
+					"maxLength": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e17a4a2c-83d3-4016-c2af-3c6dae81b77f",
+					"name": "VORNA",
+					"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"description": "First Name",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": 40,
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "4b64674f-b659-42ca-8750-2b37fb59f047",
+					"name": "NACHN",
+					"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"description": "Last Name",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": 40,
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f318a8d6-385a-48a3-cbe5-be20b0a209ac",
+					"name": "GBDAT",
+					"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"description": "Date of Birth",
+					"pattern": "(([12]\\d{3}|0\\d{3}|00\\d{2}|000\\d)\\-?(0[1-9]|1[0-2])\\-?(0[1-9]|[12]\\d|3[01])|0{8})",
+					"example": "20160831",
+					"objectType": "string",
+					"maxLength": 10,
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "69e116fa-eab4-4c9b-9fe0-1fcd9fcdf4a7",
+					"name": "ORGEH",
+					"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"description": "Organizational Unit",
+					"pattern": "",
+					"example": "",
+					"objectType": "number",
+					"maxLength": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"name": "IT_ALL_EMPLOYEE_BDAY",
+					"parent": "cecc2430-494a-43b9-fddb-51f0353edb90",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "array",
+					"maxLength": "",
+					"isParent": true,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "b019db52-4546-4bfa-cdd8-15bab963bd7c",
+							"name": "PERNR",
+							"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"description": "Personnel Number",
+							"pattern": "",
+							"example": "",
+							"objectType": "number",
+							"maxLength": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "e17a4a2c-83d3-4016-c2af-3c6dae81b77f",
+							"name": "VORNA",
+							"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"description": "First Name",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"maxLength": 40,
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "4b64674f-b659-42ca-8750-2b37fb59f047",
+							"name": "NACHN",
+							"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"description": "Last Name",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"maxLength": 40,
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "f318a8d6-385a-48a3-cbe5-be20b0a209ac",
+							"name": "GBDAT",
+							"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"description": "Date of Birth",
+							"pattern": "(([12]\\d{3}|0\\d{3}|00\\d{2}|000\\d)\\-?(0[1-9]|1[0-2])\\-?(0[1-9]|[12]\\d|3[01])|0{8})",
+							"example": "20160831",
+							"objectType": "string",
+							"maxLength": 10,
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "69e116fa-eab4-4c9b-9fe0-1fcd9fcdf4a7",
+							"name": "ORGEH",
+							"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"description": "Organizational Unit",
+							"pattern": "",
+							"example": "",
+							"objectType": "number",
+							"maxLength": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "1ac890dd-23a6-48cf-d39d-af80e1b9cfb8",
+							"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"name": "STARTTIME",
+							"objectType": "string",
+							"description": "",
+							"required": false,
+							"value": "",
+							"minLength": "",
+							"maxLength": "",
+							"default": "",
+							"example": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "8e067889-028d-48d9-a8a8-030da418392f",
+							"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"name": "ENDTIME",
+							"objectType": "string",
+							"description": "",
+							"required": false,
+							"value": "",
+							"minLength": "",
+							"maxLength": "",
+							"default": "",
+							"example": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "de12d86f-a507-4cd5-ede8-cd9616892a73",
+					"name": "OBJID",
+					"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "453ad44e-1340-4206-879f-811ec8e537d5",
+					"name": "NAME",
+					"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c4c9b371-9830-4843-d82b-18d88ebf87a1",
+					"name": "SEQNR",
+					"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+					"description": "4 Byte Signed Integer",
+					"pattern": "",
+					"example": "",
+					"objectType": "integer",
+					"maxLength": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "c0df58df-4258-40de-e5c6-5b307492d80b",
+					"name": "LEVEL",
+					"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+					"description": "4 Byte Signed Integer",
+					"pattern": "",
+					"example": "",
+					"objectType": "integer",
+					"maxLength": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+					"name": "IT_ORG",
+					"parent": "cecc2430-494a-43b9-fddb-51f0353edb90",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "array",
+					"maxLength": "",
+					"isParent": true,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "de12d86f-a507-4cd5-ede8-cd9616892a73",
+							"name": "OBJID",
+							"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+							"description": "",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"maxLength": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "453ad44e-1340-4206-879f-811ec8e537d5",
+							"name": "NAME",
+							"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+							"description": "",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"maxLength": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "c4c9b371-9830-4843-d82b-18d88ebf87a1",
+							"name": "SEQNR",
+							"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+							"description": "4 Byte Signed Integer",
+							"pattern": "",
+							"example": "",
+							"objectType": "integer",
+							"maxLength": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "c0df58df-4258-40de-e5c6-5b307492d80b",
+							"name": "LEVEL",
+							"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+							"description": "4 Byte Signed Integer",
+							"pattern": "",
+							"example": "",
+							"objectType": "integer",
+							"maxLength": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "cecc2430-494a-43b9-fddb-51f0353edb90",
+					"name": "result",
+					"parent": "",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "object",
+					"maxLength": "",
+					"isParent": true,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+							"name": "IT_ALL_EMPLOYEE_BDAY",
+							"parent": "cecc2430-494a-43b9-fddb-51f0353edb90",
+							"description": "",
+							"pattern": "",
+							"example": "",
+							"objectType": "array",
+							"maxLength": "",
+							"isParent": true,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": [
+								{
+									"id": "b019db52-4546-4bfa-cdd8-15bab963bd7c",
+									"name": "PERNR",
+									"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+									"description": "Personnel Number",
+									"pattern": "",
+									"example": "",
+									"objectType": "number",
+									"maxLength": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "e17a4a2c-83d3-4016-c2af-3c6dae81b77f",
+									"name": "VORNA",
+									"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+									"description": "First Name",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"maxLength": 40,
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "4b64674f-b659-42ca-8750-2b37fb59f047",
+									"name": "NACHN",
+									"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+									"description": "Last Name",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"maxLength": 40,
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "f318a8d6-385a-48a3-cbe5-be20b0a209ac",
+									"name": "GBDAT",
+									"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+									"description": "Date of Birth",
+									"pattern": "(([12]\\d{3}|0\\d{3}|00\\d{2}|000\\d)\\-?(0[1-9]|1[0-2])\\-?(0[1-9]|[12]\\d|3[01])|0{8})",
+									"example": "20160831",
+									"objectType": "string",
+									"maxLength": 10,
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "69e116fa-eab4-4c9b-9fe0-1fcd9fcdf4a7",
+									"name": "ORGEH",
+									"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+									"description": "Organizational Unit",
+									"pattern": "",
+									"example": "",
+									"objectType": "number",
+									"maxLength": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "1ac890dd-23a6-48cf-d39d-af80e1b9cfb8",
+									"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+									"name": "STARTTIME",
+									"objectType": "string",
+									"description": "",
+									"required": false,
+									"value": "",
+									"minLength": "",
+									"maxLength": "",
+									"default": "",
+									"example": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "8e067889-028d-48d9-a8a8-030da418392f",
+									"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+									"name": "ENDTIME",
+									"objectType": "string",
+									"description": "",
+									"required": false,
+									"value": "",
+									"minLength": "",
+									"maxLength": "",
+									"default": "",
+									"example": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								}
+							]
+						},
+						{
+							"id": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+							"name": "IT_ORG",
+							"parent": "cecc2430-494a-43b9-fddb-51f0353edb90",
+							"description": "",
+							"pattern": "",
+							"example": "",
+							"objectType": "array",
+							"maxLength": "",
+							"isParent": true,
+							"enableValueHelp": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": [
+								{
+									"id": "de12d86f-a507-4cd5-ede8-cd9616892a73",
+									"name": "OBJID",
+									"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+									"description": "",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"maxLength": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "453ad44e-1340-4206-879f-811ec8e537d5",
+									"name": "NAME",
+									"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+									"description": "",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"maxLength": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "c4c9b371-9830-4843-d82b-18d88ebf87a1",
+									"name": "SEQNR",
+									"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+									"description": "4 Byte Signed Integer",
+									"pattern": "",
+									"example": "",
+									"objectType": "integer",
+									"maxLength": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								},
+								{
+									"id": "c0df58df-4258-40de-e5c6-5b307492d80b",
+									"name": "LEVEL",
+									"parent": "0fa1775c-6b61-4d4b-d7a1-d1f7a64f4e13",
+									"description": "4 Byte Signed Integer",
+									"pattern": "",
+									"example": "",
+									"objectType": "integer",
+									"maxLength": "",
+									"isParent": false,
+									"enableValueHelp": false,
+									"enabled": true,
+									"showNameField": true,
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "1ac890dd-23a6-48cf-d39d-af80e1b9cfb8",
+					"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"name": "STARTTIME",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "8e067889-028d-48d9-a8a8-030da418392f",
+					"parent": "6fec3fae-10ac-4e1d-ef1e-da95972d1386",
+					"name": "ENDTIME",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "4f240f9f-bfe3-487e-b2bc-109c74204b73",
+			"name": "postgetTodayBDayResponse",
+			"properties": [
+				{
+					"id": "8966d144-e6ad-47f9-d187-d8de2f4ab73f",
+					"name": "PERNR",
+					"parent": "50a4df7a-6d95-4cc6-a4a5-12e322bd6faa",
+					"description": "Personnel Number",
+					"pattern": "",
+					"example": "",
+					"objectType": "number",
+					"maxLength": ""
+				},
+				{
+					"id": "2c10b6b6-51d2-4b33-c355-3e64d5b4e4ac",
+					"name": "VORNA",
+					"parent": "50a4df7a-6d95-4cc6-a4a5-12e322bd6faa",
+					"description": "First Name",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": 40
+				},
+				{
+					"id": "645bed09-ea12-4067-baf0-8a253b59c0b8",
+					"name": "NACHN",
+					"parent": "50a4df7a-6d95-4cc6-a4a5-12e322bd6faa",
+					"description": "Last Name",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"maxLength": 40
+				},
+				{
+					"id": "2a35c0f2-db4b-42d2-d14e-1ed75b922a05",
+					"name": "GBDAT",
+					"parent": "50a4df7a-6d95-4cc6-a4a5-12e322bd6faa",
+					"description": "Date of Birth",
+					"pattern": "(([12]\\d{3}|0\\d{3}|00\\d{2}|000\\d)\\-?(0[1-9]|1[0-2])\\-?(0[1-9]|[12]\\d|3[01])|0{8})",
+					"example": "20160831",
+					"objectType": "string",
+					"maxLength": 10
+				},
+				{
+					"id": "0220f85c-5cbd-46f4-c231-615903f55f51",
+					"name": "ORGEH",
+					"parent": "50a4df7a-6d95-4cc6-a4a5-12e322bd6faa",
+					"description": "Organizational Unit",
+					"pattern": "",
+					"example": "",
+					"objectType": "number",
+					"maxLength": ""
+				},
+				{
+					"id": "50a4df7a-6d95-4cc6-a4a5-12e322bd6faa",
+					"name": "IT_ALL_EMPLOYEE_BDAY",
+					"parent": "803ecc15-9aac-411b-fb72-4e082a51bebc",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "array",
+					"maxLength": ""
+				},
+				{
+					"id": "803ecc15-9aac-411b-fb72-4e082a51bebc",
+					"name": "result",
+					"parent": "",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "object",
+					"maxLength": ""
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "zcl_api_hcm_emp_birthday",
+	"endpoint": "https://s4dev.neptune-software.com/neptune/api/getempbdays",
+	"ver": "24.4.18.1053",
+	"version": "1.0",
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "",
+	"about": null,
+	"enableProxy": true,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "f52d71d3-9bfc-ee11-aaf0-000d3ab82dc5",
+	"apiGroup": "12ab7e81-6acd-ed11-a8de-000d3a65e714",
+	"apiFormat": 0,
+	"roles": []
+}
