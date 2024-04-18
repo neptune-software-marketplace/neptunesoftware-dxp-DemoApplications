@@ -7,7 +7,7 @@
 	},
 	"name": "Deploy to DXP Demo",
 	"description": null,
-	"ver": "24.4.17.925",
+	"ver": "24.4.17.1350",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -83,7 +83,14 @@
 			}
 		}
 	],
-	"api": [],
+	"api": [
+		{
+			"id": "569b3167-421b-ee11-907c-000d3ab76cc2",
+			"name": "Gartner Employee Skills",
+			"description": null,
+			"apiGroup": null
+		}
+	],
 	"odataSource": [],
 	"odataMock": [],
 	"dictionary": [],
